@@ -1,0 +1,7 @@
+SriCity
+Query = SriCity
+Total Results :: 2
+coffee
+New City - (x,y)
+coffee
+Sunny Cafe - (x,y)
