@@ -1,0 +1,98 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {#    <link rel="stylesheet" href="http://localhost:8080/search-page.css">#}
+    <style>
+        html {
+            height: 100%;
+            width: 100%;
+            font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .text-container {
+            transform: scale(.50);
+        }
+
+        .page {
+            display: grid;
+            transform: translateY(-70px);
+        }
+
+        .rounded {
+            border-radius: 3px;
+        }
+
+        .input-box-container {
+            display: grid;
+            width: 750px;
+            grid-template-columns: 80% 20%;
+            grid-column-gap: 10px;
+        }
+
+        .input-box {
+            box-shadow: 0 0 4px rgba(0, 0, 0, .6);
+            border: none;
+            font-size: 25px;
+            /*width: 500px;*/
+            padding: 5px;
+            transition: all 300ms;
+        }
+
+        .input-box:focus {
+            border: none;
+            box-shadow: 0 0 15px rgba(0, 0, 0, .7);
+        }
+
+        .container {
+            text-align: center;
+            transform: translate(70px, -55px);
+            display: grid;
+        }
+
+        .btn {
+            color: #757575;
+            padding: 13px;
+            background: #f2f2f2;
+            text-decoration: none;
+            font-size: 15px;
+            border-radius: 3px;
+            transition: all 400ms;
+        }
+
+        .btn:hover {
+            background: #e3e3e3;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="page">
+    <div class="text-container">
+        <img src="{% static 'images/logo.png' %}" alt="">
+    </div>
+    <div class="container">
+        <form class="input-box-container" action="{% url 'geosearch:results' %}" method="get">
+            <input class="input-box rounded" type="text" placeholder="How far for ...." name="query">
+            <button class="btn" type="submit">Search</button>
+        </form>
+    </div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 60%
+}
+
+.aplhabet-g {
+  color: #34a853;
+  font-size: 250%;
+}
+
+.aplhabet-e {
+  color: #fbbc05;
+  font-size: 250%;
+}
+
+.aplhabet-o {
+  color: #4285f4;
+  font-size: 250%;
+}
+
+.aplhabet-search {
+  color: black;
+  font-size: 250%
+}
+
+.input-box-container {
+  display: inline-block;
+  width: 70%;
+  transform: translateX(25%);
+  margin: 0;
+}
+
+.input-box {
+  width: 80%;
+  height: 30px;
+  /* border-radius: 1px; */
+}
+
+input.rounded {
+  border: 1px solid #ccc;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 2px 2px 3px #666;
+  -webkit-box-shadow: 2px 2px 3px #666;
+  box-shadow: 2px 2px 3px #666;
+  font-size: 20px;
+  padding: 4px 7px;
+  outline: 0;
+  -webkit-appearance: none;
+}
+
+input.rounded:focus {
+  border-color: #339933;
+}
+
+.text-container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button {
+  height: 40px;
+  width: 15%;
+  transform: translateY(-10%) translateX(3%);
+  display: inline-block;
+  border: 1px solid #ccc;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 2px 2px 3px #666;
+  -webkit-box-shadow: 2px 2px 3px #666;
+  box-shadow: 2px 2px 3px #666;
+  background-color: rgb(201, 201, 201);
+}
