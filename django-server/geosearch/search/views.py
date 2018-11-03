@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-import subprocess, os
+import subprocess
+import os
 
 
 # def search(request):
@@ -18,10 +19,12 @@ def results(request):
     template = 'results.html'
     path = os.getcwd()
     query = request.GET.get('query')
-    os.chdir('/Users/udaysawhney/Documents/repositories/GeoSearch-Search-Engine/geosearch_lucene')
+    os.chdir(
+        '/Users/udaysawhney/Documents/repositories/GeoSearch-Search-Engine/geosearch_lucene')
     p1 = subprocess.Popen(["java", "-jar", "geosearch_lucene.jar", query], stdin=subprocess.PIPE,
                           stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    p2 = subprocess.Popen(["python", "test.py"], stdin=p1.stdout,stdout=subprocess.PIPE)
+    p2 = subprocess.Popen(["python", "test.py"],
+                          stdin=p1.stdout, stdout=subprocess.PIPE)
     print("Results in python")
     results = p2.stdout.readlines()
     for result in results:
