@@ -26,10 +26,11 @@ public class Indexer {
         IndexWriter writer = createWriter();
         List<Document> documents = new ArrayList<>();
 
-        Document document1 = createDocument(1, "SriCity", "coffee", "New City - (x,y)");
+        Document document1 = createDocument(1, "SriCity", "coffee", "New City", 13.59451,80.02855);
         documents.add(document1);
-
-        Document document2 = createDocument(2, "SriCity", "coffee", "Sunny Cafe - (x,y)");
+        
+        //Document document2 = createDocument(2, "SriCity", "coffee", "Cafe Coffee Day", 14.1474, 79.85811);
+        Document document2 = createDocument(2, "SriCity", "coffee", "Cafe Coffee Day", 13.5570829, 80.0568046);
         documents.add(document2);
 
         //Let's clean everything first
@@ -41,13 +42,15 @@ public class Indexer {
         writer.close();
     }
 
-    private static Document createDocument(Integer id, String city, String utility, String location)
+    private static Document createDocument(Integer id, String city, String utility, String location, Double latitude, Double longitude)
     {
         Document document = new Document();
         document.add(new StringField("id", id.toString() , Field.Store.YES));
         document.add(new TextField("city", city , Field.Store.YES));
         document.add(new TextField("utility", utility , Field.Store.YES));
         document.add(new TextField("location", location , Field.Store.YES));
+        document.add(new TextField("latitude", Double.toString(latitude) , Field.Store.YES));
+        document.add(new TextField("longitude", Double.toString(longitude) , Field.Store.YES));
         return document;
     }
 

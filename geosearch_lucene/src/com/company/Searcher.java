@@ -23,7 +23,10 @@ public class Searcher {
 
     public static void main(String[] args) throws Exception {
         IndexSearcher searcher = createSearcher();
-        String query = "";
+        String query = "SriCity";
+        double lat1 = 13.5568;
+        double lon1 = 80.0261;
+        double threshold = 5000.0;
         /*try{
             File file = new File("input.txt");
             BufferedReader br = new BufferedReader(new FileReader(file));
@@ -59,8 +62,41 @@ public class Searcher {
 
         for (ScoreDoc sd : foundDocs2.scoreDocs) {
             Document d = searcher.doc(sd.doc);
-            System.out.println(String.format(d.get("utility")));
-            System.out.println(String.format(d.get("location")));
+            
+            double lat2 = Double.parseDouble(d.get("latitude"));
+            double lon2 = Double.parseDouble(d.get("longitude"));
+            
+            System.out.println("asd");
+            
+            //System.out.println(lat2);
+            //System.out.println(lon2);
+            
+            final int R = 6371; // Radius of the earth
+
+            double latDistance = Math.toRadians(lat2 - lat1);
+            double lonDistance = Math.toRadians(lon2 - lon1);
+            double a = Math.sin(latDistance / 2) * Math.sin(latDistance / 2)
+                    + Math.cos(Math.toRadians(lat1)) * Math.cos(Math.toRadians(lat2))
+                    * Math.sin(lonDistance / 2) * Math.sin(lonDistance / 2);
+            double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+            double distance = R * c * 1000; // convert to meters
+
+            //double height = el1 - el2;
+            double height = 0;
+
+            distance = Math.pow(distance, 2) + Math.pow(height, 2);
+            
+            distance = Math.sqrt(distance);
+            
+            System.out.println(distance);
+            
+            if  (distance < threshold) {
+                System.out.println(String.format(d.get("utility")));
+                System.out.println(String.format(d.get("location")));
+                System.out.println(Double.parseDouble(d.get("latitude")));
+                System.out.println(Double.parseDouble(d.get("longitude")));
+            }
+            
         }
 
     }
