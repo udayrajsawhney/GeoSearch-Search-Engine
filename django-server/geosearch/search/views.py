@@ -19,19 +19,14 @@ def results(request):
     template = 'results.html'
     path = os.getcwd()
     query = request.GET.get('query')
+    print(query)
     os.chdir(
         '/Users/udaysawhney/Documents/repositories/GeoSearch-Search-Engine/geosearch_lucene')
     p1 = subprocess.Popen(["java", "-jar", "geosearch_lucene.jar", query], stdin=subprocess.PIPE,
                           stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    p2 = subprocess.Popen(["python", "test.py"],
-                          stdin=p1.stdout, stdout=subprocess.PIPE)
-    print("Results in python")
-    results = p2.stdout.readlines()
-    for result in results:
-        print(type(result))
-    # print(type(results))
-    p1.stdout.close()
-    out, err = p2.communicate()
+    results = p1.stdout.readlines()
+    print(results)
+    p1.communicate()
     context = {
         'results': results
     }
