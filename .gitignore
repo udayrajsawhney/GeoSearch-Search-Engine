@@ -1,2 +1,2 @@
-*/.idea
-*/geosearch_lucene.jar
+*.idea
+*geosearch_lucene.jar
