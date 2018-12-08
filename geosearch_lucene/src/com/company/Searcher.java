@@ -24,45 +24,39 @@ public class Searcher {
 
     public static void main(String[] args) throws Exception {
         IndexSearcher searcher = createSearcher();
-        String query = "Coffee";
-        String query1 = getCodes(query);
+        String query = "";
+        String query1 = "";
         String city = "Sri City";
-        String city1 = getCodes(city);
+        String city1 = "";
         double lat1=13.5568;
         double lon1=80.0261;
         double threshold = 5000.0;
-        /*try{
-            File file = new File("input.txt");
-            BufferedReader br = new BufferedReader(new FileReader(file));
-            query = br.readLine();
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }*/
         try {
             if (!args[0].equals(null)) {
                 for(int i=0;i<args.length -3;i++)
                     query += args[i] + " ";
                 city = args[args.length-1];
-                lat1 = Double.parseDouble(args[args.length-2]);
-                lon1 = Double.parseDouble(args[args.length-3]);
+                lat1 = Double.parseDouble(args[args.length-3]);
+                lon1 = Double.parseDouble(args[args.length-2]);
             }
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
+        /*
         System.out.println("Query = " + query);
         System.out.println("Latitude = " + lat1);
         System.out.println("Longitude = " + lon1);
         System.out.println("City = " + city);
         System.out.println("Coming from java");
-
+        */
 
         city1 = getCodes(city);
         TopDocs foundDocs2 = searchByCity(city1, searcher);
         query1 = getCodes(query);
         //TopDocs foundDocs2 = searchByUtility(query1, searcher);
 
-        System.out.println("Total Results :: " + foundDocs2.totalHits);
+        //System.out.println("Total Results :: " + foundDocs2.totalHits);
         for (ScoreDoc sd : foundDocs2.scoreDocs) {
             Document d = searcher.doc(sd.doc);
             
@@ -86,11 +80,9 @@ public class Searcher {
             
             distance = Math.sqrt(distance);
             
-            System.out.println(distance);
-            
             if  (distance < threshold && query1.equals(d.get("utility"))) {
                 //System.out.println(String.format(d.get("utility")));
-            	System.out.println(String.format(query));
+            	//System.out.println(String.format(query));
                 System.out.println(String.format(d.get("location")));
                 System.out.println(Double.parseDouble(d.get("latitude")));
                 System.out.println(Double.parseDouble(d.get("longitude")));

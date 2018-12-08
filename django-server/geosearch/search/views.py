@@ -47,5 +47,5 @@ def results(request):
     context = {
         'results': results
     }
-    print(results)
+    print(results[0])
     return render(request, template, context)

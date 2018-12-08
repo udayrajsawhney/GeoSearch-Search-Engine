@@ -1,2 +1,4 @@
 *.idea
 *geosearch_lucene.jar
+*indexedfiles
+.xml

@@ -42,17 +42,19 @@
 </nav>
 <div class="card">
     {% if results|length > 1 %}
-        {% for result in results %}
 
-            <div class="card-body">
-                {{ result }}
-            </div>
-        {% endfor %}
+        <div class="card-body" style="margin-left: 60px;">
+            <h4 class="card-title">{{ results.0 }}</h4>
+            <p class="card-text">x kms from your current location</p>
+            <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;
+            <a href="#" class="card-link">{{ results.1 }}</a>
+            <a href="#" class="card-link">{{ results.2 }}</a>
+        </div>
     {% else %}
         {% if results.0 == 'U' %}
-            <h3>Unable to access location </h3>
+            <h4 style="margin-left: 30px;">Unable to access location </h4>
         {% else %}
-            <h3>No results to show</h3>
+            <h4 style="margin-left: 30px;">No results to show</h4>
         {% endif %}
     {% endif %}
 

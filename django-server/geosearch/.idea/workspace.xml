@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25c1e2ee-b845-4067-be25-01523cdf6356" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/latlong.py" beforeDir="false" afterPath="$PROJECT_DIR$/search/latlong.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/templates/results.html" beforeDir="false" afterPath="$PROJECT_DIR$/search/templates/results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/search/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../geosearch_lucene/geosearch_lucene.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../geosearch_lucene/geosearch_lucene.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../geosearch_lucene/indexedfiles/_b.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../geosearch_lucene/indexedfiles/_b.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../geosearch_lucene/indexedfiles/_b.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../geosearch_lucene/indexedfiles/segments_c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../geosearch_lucene/indexedfiles/write.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/com/company/Indexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/com/company/Indexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/com/company/Searcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/com/company/Searcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/geosearch_lucene.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/geosearch_lucene.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../geosearch_lucene/src/com/company/Searcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../geosearch_lucene/src/com/company/Searcher.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,25 +42,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="4" />
-          <entry key="py" value="6" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="4" />
-          <entry key="Python" value="6" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1573" />
-          <entry key="py" value="839" />
+          <entry key="html" value="1685" />
+          <entry key="py" value="957" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1573" />
-          <entry key="Python" value="839" />
+          <entry key="HTML" value="1685" />
+          <entry key="Python" value="957" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -56,27 +69,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/search/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+            <state relative-caret-position="387">
+              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1544283067610" expanded="true" signature="1405:1406" ph="..." />
+                <marker date="1544298701911" expanded="true" signature="1408:1409" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
+        <entry file="file://$PROJECT_DIR$/search/latlong.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -90,11 +100,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/search/templates/results.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+            <state relative-caret-position="187">
+              <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2581#2587#0#HTML" expanded="true" />
+                <element signature="e#2587#2593#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,9 +132,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/search/urls.py" />
-        <option value="$PROJECT_DIR$/search/latlong.py" />
         <option value="$PROJECT_DIR$/search/templates/index.html" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/search/latlong.py" />
         <option value="$PROJECT_DIR$/search/views.py" />
         <option value="$PROJECT_DIR$/search/templates/results.html" />
       </list>
@@ -218,13 +235,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -266,19 +284,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search/latlong.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/latlong.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1544298701911" expanded="true" signature="1408:1409" ph="..." />
           </folding>
         </state>
       </provider>
@@ -292,18 +321,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/search/templates/results.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+        <state relative-caret-position="187">
+          <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1544283067610" expanded="true" signature="1405:1406" ph="..." />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2581#2587#0#HTML" expanded="true" />
+            <element signature="e#2587#2593#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
