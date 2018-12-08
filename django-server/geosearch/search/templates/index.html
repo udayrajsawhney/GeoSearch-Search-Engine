@@ -94,22 +94,24 @@
     <div class="container">
         <form class="input-box-container" action="{% url 'geosearch:results' %}" method="get">
             <input class="input-box rounded" type="text" placeholder="How far for ...." name="query">
+            <input type="hidden" name="loc" id="latlng">
             <button class="btn" type="submit">Search</button>
         </form>
     </div>
 </div>
 <footer id="main-footer" class="bg-dark text-white" style="height: 82px;position:fixed;bottom: 0px;width: 100%;">
-{#    <div class="container">#}
-        <div class="row">
-            <div class="col">
-                <p class="lead text-center" style="padding-top: 29px;">
-                    Copyright &copy;
-                    <span id="year"></span> &nbsp;Team StormBreaker
-                </p>
-            </div>
+    {#    <div class="container">#}
+    <div class="row">
+        <div class="col">
+            <p class="lead text-center" style="padding-top: 29px;">
+                Copyright &copy;
+                <span id="year"></span> &nbsp;Team StormBreaker
+            </p>
         </div>
-{#    </div>#}
+    </div>
+    {#    </div>#}
 </footer>
+
 
 <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
@@ -119,7 +121,11 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
         integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
-<script> $('#year').text(new Date().getFullYear()); </script>
+<script> $('#year').text(new Date().getFullYear());
+navigator.geolocation.getCurrentPosition(p => {
+    $('#latlng').val(`${p.coords.latitude},${p.coords.longitude}`)
+})
+</script>
 
 </body>
 
