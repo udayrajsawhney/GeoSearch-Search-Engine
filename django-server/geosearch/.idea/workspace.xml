@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25c1e2ee-b845-4067-be25-01523cdf6356" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../geosearch_lucene/indexedfiles/_b.cfe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../geosearch_lucene/indexedfiles/_b.cfs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../geosearch_lucene/indexedfiles/_b.si" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../geosearch_lucene/indexedfiles/segments_c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../geosearch_lucene/inputfiles/final_doc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/geosearch_lucene.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/indexedfiles/write.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../geosearch_lucene/indexedfiles/_a.cfe" beforeDir="false" afterPath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/indexedfiles/_a.cfe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../geosearch_lucene/indexedfiles/_a.cfs" beforeDir="false" afterPath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/indexedfiles/_a.cfs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../geosearch_lucene/indexedfiles/_a.si" beforeDir="false" afterPath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/indexedfiles/_a.si" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../geosearch_lucene/indexedfiles/segments_b" beforeDir="false" afterPath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/indexedfiles/segments_b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/com/company/Indexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/com/company/Indexer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/com/company/Searcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../geosearch_lucene/out/production/geosearch_lucene/com/company/Searcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../geosearch_lucene/src/com/company/Indexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../geosearch_lucene/src/com/company/Indexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../geosearch_lucene/src/com/company/Searcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../geosearch_lucene/src/com/company/Searcher.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +59,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/search/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
+            <state relative-caret-position="482">
               <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -243,7 +224,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -318,7 +299,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/search/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
+        <state relative-caret-position="482">
           <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
