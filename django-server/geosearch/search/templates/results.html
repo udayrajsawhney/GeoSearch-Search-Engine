@@ -29,6 +29,7 @@
                        class="form-control"
                        aria-describedby="basic-addon2"
                        name="query">
+                <input type="hidden" name="loc" id="latlng">
                 <div class="input-group-append"
                      style="background: #fff; border-bottom-right-radius: 20px; border-top-right-radius: 20px;">
                     <button class="btn" type="submit"
@@ -69,6 +70,10 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
         integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
-<script> $('#year').text(new Date().getFullYear()); </script>
+<script> $('#year').text(new Date().getFullYear());
+navigator.geolocation.getCurrentPosition(p => {
+    $('#latlng').val(`${p.coords.latitude},${p.coords.longitude}`)
+})
+</script>
 </body>
 </html>

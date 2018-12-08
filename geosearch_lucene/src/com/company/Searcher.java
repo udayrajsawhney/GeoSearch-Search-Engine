@@ -17,15 +17,17 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Paths;
+import java.util.Arrays;
 
 public class Searcher {
     private static final String INDEX_DIR = "indexedfiles";
 
     public static void main(String[] args) throws Exception {
         IndexSearcher searcher = createSearcher();
-        String query = "SriCity";
-        double lat1 = 13.5568;
-        double lon1 = 80.0261;
+        String query = "";
+        String city = "";
+        double lat1=0.0;
+        double lon1=0.0;
         double threshold = 5000.0;
         /*try{
             File file = new File("input.txt");
@@ -36,25 +38,22 @@ public class Searcher {
         }*/
         try {
             if (!args[0].equals(null)) {
-                query = args[0];
+                for(int i=0;i<args.length -3;i++)
+                    query += args[i] + " ";
+                city = args[args.length-1];
+                lat1 = Double.parseDouble(args[args.length-2]);
+                lon1 = Double.parseDouble(args[args.length-3]);
             }
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
-        /*//Search by ID
-        TopDocs foundDocs = searchById(1, searcher);
+        System.out.println("Query = " + query);
+        System.out.println("Latitude = " + lat1);
+        System.out.println("Longitude = " + lon1);
+        System.out.println("City = " + city);
+        System.out.println("Coming from java");
 
-        System.out.println("Total Results :: " + foundDocs.totalHits);
-
-        for (ScoreDoc sd : foundDocs.scoreDocs)
-        {
-            Document d = searcher.doc(sd.doc);
-            System.out.println(String.format(d.get("firstName")));
-        }
-        */
-        //Search by City
-        System.out.println("Query = "+query);
 
         TopDocs foundDocs2 = searchByCity(query, searcher);
 
@@ -65,11 +64,6 @@ public class Searcher {
             
             double lat2 = Double.parseDouble(d.get("latitude"));
             double lon2 = Double.parseDouble(d.get("longitude"));
-            
-            System.out.println("asd");
-            
-            //System.out.println(lat2);
-            //System.out.println(lon2);
             
             final int R = 6371; // Radius of the earth
 
@@ -101,6 +95,7 @@ public class Searcher {
 
     }
 
+
     private static TopDocs searchByCity(String city, IndexSearcher searcher) throws Exception {
         QueryParser qp = new QueryParser("city", new StandardAnalyzer());
         Query city_query = qp.parse(city);
@@ -129,4 +124,5 @@ public class Searcher {
         IndexSearcher searcher = new IndexSearcher(reader);
         return searcher;
     }
+
 }
