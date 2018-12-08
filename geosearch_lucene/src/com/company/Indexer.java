@@ -3,43 +3,64 @@ package com.company;
 import java.nio.file.Paths;
 
 import java.io.IOException;
+import java.io.InputStream;
+import java.nio.file.FileVisitResult;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.file.SimpleFileVisitor;
+import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
 import java.util.List;
+import org.apache.lucene.analysis.Analyzer;
 
 
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
+import org.apache.lucene.document.LongPoint;
 //import org.apache.lucene.document.LatLonPoint;
 import org.apache.lucene.document.StringField;
 import org.apache.lucene.document.TextField;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
+import org.apache.lucene.index.Term;
+import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 
 public class Indexer {
     private static final String INDEX_DIR = "indexedfiles";
-
+    
     public static void main(String[] args) throws Exception
     {
-        IndexWriter writer = createWriter();
-        List<Document> documents = new ArrayList<>();
+        //IndexWriter writer = createWriter();
+        String docsPath = "inputfiles";
+        final Path docDir = Paths.get(docsPath);
+       
+        try
+        {
+            //org.apache.lucene.store.Directory instance
+            Directory dir = FSDirectory.open( Paths.get(INDEX_DIR) );
+             
+            //analyzer with the default stop words
+            Analyzer analyzer = new StandardAnalyzer();
+             
+            //IndexWriter Configuration
+            IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
+            iwc.setOpenMode(IndexWriterConfig.OpenMode.CREATE_OR_APPEND);
+             
+            //IndexWriter writes new index files to the directory
+            IndexWriter writer = new IndexWriter(dir, iwc);
+             
+            //Its recursive method to iterate all files and directories
+            indexDocs(writer, docDir);
 
-        Document document1 = createDocument(1, "SriCity", "coffee", "New City", 13.59451,80.02855);
-        documents.add(document1);
-        
-        //Document document2 = createDocument(2, "SriCity", "coffee", "Cafe Coffee Day", 14.1474, 79.85811);
-        Document document2 = createDocument(2, "SriCity", "coffee", "Cafe Coffee Day", 13.5570829, 80.0568046);
-        documents.add(document2);
-
-        //Let's clean everything first
-        writer.deleteAll();
-
-        writer.addDocuments(documents);
-        writer.commit();
-
-        writer.close();
+            writer.close();
+        }
+        catch (IOException e)
+        {
+            e.printStackTrace();
+        }
     }
 
     private static Document createDocument(Integer id, String city, String utility, String location, Double latitude, Double longitude)
@@ -61,4 +82,61 @@ public class Indexer {
         IndexWriter writer = new IndexWriter(dir, config);
         return writer;
     }
+
+static void indexDocs(final IndexWriter writer, Path path) throws IOException
+    {
+        //Directory?
+        if (Files.isDirectory(path))
+        {
+            //Iterate directory
+            Files.walkFileTree(path, new SimpleFileVisitor<Path>()
+            {
+                @Override
+                public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException
+                {
+                    try
+                    {
+                        //Index this file
+                        indexDoc(writer, file, attrs.lastModifiedTime().toMillis());
+                    }
+                    catch (IOException ioe)
+                    {
+                        ioe.printStackTrace();
+                    }
+                    return FileVisitResult.CONTINUE;
+                }
+            });
+        }
+        else
+        {
+            //Index this file
+            indexDoc(writer, path, Files.getLastModifiedTime(path).toMillis());
+        }
+    }
+ 
+    static void indexDoc(IndexWriter writer, Path file, long lastModified) throws IOException
+    {
+        try (InputStream stream = Files.newInputStream(file))
+        {
+            //Create lucene Document
+            Document doc = new Document();
+           
+            List<Document> documents = new ArrayList<>();
+            String values = new String(Files.readAllBytes(file));
+            String[] text =  values.split("\n");
+            
+            for(int i=0;i<text.length;i++)
+            {
+                String[] val = text[i].split(",");
+                Document document1 = createDocument(i+1, new String(val[0]),new String(val[1]),new String(val[2]),new Double(val[3]),new Double(val[4]));
+                documents.add(document1);
+            }
+              writer.deleteAll();
+
+            writer.addDocuments(documents);
+            writer.commit();
+            //writer.updateDocument(new Term("path", file.toString()), doc);
+        }
+    }
 }
+
