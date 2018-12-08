@@ -24,10 +24,10 @@ public class Searcher {
 
     public static void main(String[] args) throws Exception {
         IndexSearcher searcher = createSearcher();
-        String query = "";
-        String city = "";
-        double lat1=0.0;
-        double lon1=0.0;
+        String query = "Coffee";
+        String city = "Sri City";
+        double lat1=13.5568;
+        double lon1=80.0261;
         double threshold = 5000.0;
         /*try{
             File file = new File("input.txt");
@@ -55,10 +55,11 @@ public class Searcher {
         System.out.println("Coming from java");
 
 
-        TopDocs foundDocs2 = searchByCity(query, searcher);
+        TopDocs foundDocs2 = searchByCity(city, searcher);
+        
+        //TopDocs foundDocs2 = searchByUtility(query, searcher);
 
         System.out.println("Total Results :: " + foundDocs2.totalHits);
-
         for (ScoreDoc sd : foundDocs2.scoreDocs) {
             Document d = searcher.doc(sd.doc);
             
@@ -84,7 +85,7 @@ public class Searcher {
             
             System.out.println(distance);
             
-            if  (distance < threshold) {
+            if  (distance < threshold && query.equals(d.get("utility"))) {
                 System.out.println(String.format(d.get("utility")));
                 System.out.println(String.format(d.get("location")));
                 System.out.println(Double.parseDouble(d.get("latitude")));
@@ -108,6 +109,13 @@ public class Searcher {
         Query firstNameQuery = qp.parse(firstName);
         TopDocs hits = searcher.search(firstNameQuery, 10);
         return hits;
+    }
+    private static TopDocs searchByUtility(String utility, IndexSearcher searcher) throws Exception
+    {
+    	QueryParser qp = new QueryParser("utility", new StandardAnalyzer());
+    	Query utility_query = qp.parse(utility);
+    	TopDocs hits = searcher.search(utility_query, 10);
+    	return hits;
     }
 
     private static TopDocs searchById(Integer id, IndexSearcher searcher) throws Exception
