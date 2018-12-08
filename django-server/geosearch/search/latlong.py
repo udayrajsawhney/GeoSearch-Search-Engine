@@ -17,5 +17,4 @@ def distance(lat1, lon1):
     if distance < distance_parity:
         distance_parity = distance
         city = k
-    #print("Distance:", distance)
     return city

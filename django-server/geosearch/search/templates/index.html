@@ -121,10 +121,36 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
         integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
-<script> $('#year').text(new Date().getFullYear());
-navigator.geolocation.getCurrentPosition(p => {
-    $('#latlng').val(`${p.coords.latitude},${p.coords.longitude}`)
-})
+<script>
+    $('#year').text(new Date().getFullYear());
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition, showError);
+    } else {
+        console.log("Unable to access location");
+        alert("Unable to access location");
+    }
+    function showPosition(position) {
+        $('#latlng').val(`${position.coords.latitude},${position.coords.longitude}`)
+        console.log("Latitude",position.coords.latitude)
+        console.log("Longitude",position.coords.longitude)
+    }
+    function showError(error) {
+        switch (error.code) {
+            case error.PERMISSION_DENIED:
+                console.log("User denied the request for Geolocation.");
+                break;
+            case error.POSITION_UNAVAILABLE:
+                console.log("Location information is unavailable.");
+                break;
+            case error.TIMEOUT:
+                console.log("The request to get user location timed out.");
+                break;
+            case error.UNKNOWN_ERROR:
+                console.log("An unknown error occurred.");
+                break;
+        }
+        $('#latlng').val(`#,#`)
+    }
 </script>
 
 </body>
