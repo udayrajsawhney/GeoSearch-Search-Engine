@@ -25,7 +25,9 @@ public class Searcher {
     public static void main(String[] args) throws Exception {
         IndexSearcher searcher = createSearcher();
         String query = "Coffee";
+        String query1 = getCodes(query);
         String city = "Sri City";
+        String city1 = getCodes(city);
         double lat1=13.5568;
         double lon1=80.0261;
         double threshold = 5000.0;
@@ -55,9 +57,10 @@ public class Searcher {
         System.out.println("Coming from java");
 
 
-        TopDocs foundDocs2 = searchByCity(city, searcher);
-        
-        //TopDocs foundDocs2 = searchByUtility(query, searcher);
+        city1 = getCodes(city);
+        TopDocs foundDocs2 = searchByCity(city1, searcher);
+        query1 = getCodes(query);
+        //TopDocs foundDocs2 = searchByUtility(query1, searcher);
 
         System.out.println("Total Results :: " + foundDocs2.totalHits);
         for (ScoreDoc sd : foundDocs2.scoreDocs) {
@@ -85,8 +88,9 @@ public class Searcher {
             
             System.out.println(distance);
             
-            if  (distance < threshold && query.equals(d.get("utility"))) {
-                System.out.println(String.format(d.get("utility")));
+            if  (distance < threshold && query1.equals(d.get("utility"))) {
+                //System.out.println(String.format(d.get("utility")));
+            	System.out.println(String.format(query));
                 System.out.println(String.format(d.get("location")));
                 System.out.println(Double.parseDouble(d.get("latitude")));
                 System.out.println(Double.parseDouble(d.get("longitude")));
@@ -131,6 +135,80 @@ public class Searcher {
         IndexReader reader = DirectoryReader.open(dir);
         IndexSearcher searcher = new IndexSearcher(reader);
         return searcher;
+    }
+    public static String getCodes(String s)
+    {
+        char[] x = s.toUpperCase().toCharArray();
+        
+        
+        char firstLetter = x[0];
+ 
+        //RULE [ 2 ]
+        //Convert letters to numeric code
+        for (int i = 0; i < x.length; i++) {
+            switch (x[i]) {
+            case 'B':
+            case 'F':
+            case 'P':
+            case 'V': {
+                x[i] = '1';
+                break;
+            }
+ 
+            case 'C':
+            case 'G':
+            case 'J':
+            case 'K':
+            case 'Q':
+            case 'S':
+            case 'X':
+            case 'Z': {
+                x[i] = '2';
+                break;
+            }
+ 
+            case 'D':
+            case 'T': {
+                x[i] = '3';
+                break;
+            }
+ 
+            case 'L': {
+                x[i] = '4';
+                break;
+            }
+ 
+            case 'M':
+            case 'N': {
+                x[i] = '5';
+                break;
+            }
+ 
+            case 'R': {
+                x[i] = '6';
+                break;
+            }
+ 
+            default: {
+                x[i] = '0';
+                break;
+            }
+            }
+        }
+ 
+        //Remove duplicates
+        //RULE [ 1 ]
+        String output = "" + firstLetter;
+        
+        //RULE [ 3 ]
+        for (int i = 1; i < x.length; i++)
+            if (x[i] != x[i - 1] && x[i] != '0')
+                output += x[i];
+ 
+        //RULE [ 4 ]
+        //Pad with 0's or truncate
+        output = output + "0000";
+        return output.substring(0, 4);
     }
 
 }
