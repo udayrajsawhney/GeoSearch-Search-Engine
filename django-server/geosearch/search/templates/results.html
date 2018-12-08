@@ -1,13 +1,74 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+          integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+          crossorigin="anonymous">
 </head>
 <body>
-    <h1>Coming from Apache Lucene :</h1>
+<nav style="background: #fff !important; box-shadow: 0 0 2px rgba(0, 0, 0, .3);"
+     class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="{% static 'images/logo.png' %}"
+                                          style="width: 160px; height: 56px;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav" style="padding: 24px; background: #fff; margin-top: 5px;">
+        <form action="" method="GET">
+            <div class="input-group mb-3"
+                 style="height: 48px; width: 600px; border-radius: 20px; box-shadow: 0 0 2px rgba(0, 0, 0, .3);">
+                <input type="text" style="border: none; border-top-left-radius: 20px;
+                    border-bottom-left-radius: 20px;"
+                       class="form-control"
+                       aria-describedby="basic-addon2"
+                       name="query">
+                <div class="input-group-append"
+                     style="background: #fff; border-bottom-right-radius: 20px; border-top-right-radius: 20px;">
+                    <button class="btn" type="submit"
+                            style="background: #fff;  border-bottom-right-radius: 20px; border-top-right-radius: 20px;">
+                        <i class="fa fa-search" style="color: #4285f4"></i></button>
+                </div>
+            </div>
+        </form>
+    </div>
+</nav>
+<div class="card">
     {% for result in results %}
-        <h2> {{ result }} </h2><br>
+
+        <div class="card-body">
+            {{ result }}
+        </div>
     {% endfor %}
+</div>
+
+<footer id="main-footer" class="bg-dark text-white p-2 mt-5" style="position:fixed;bottom: 0px;width: 100%;">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p class="lead text-center" style="padding-top: 20px">
+                    Copyright &copy;
+                    <span id="year"></span> &nbsp;Team StormBreaker
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+<script> $('#year').text(new Date().getFullYear()); </script>
 </body>
 </html>
