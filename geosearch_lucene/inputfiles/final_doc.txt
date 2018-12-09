@@ -1,445 +1,445 @@
-Bareilly,Coffee,Summit Coffee Shop,28.41069,79.46397
-Bareilly,Stationary,Mahesouri Stationary,28.41353,79.46135
-Bareilly,Project Components,Bhatia Brothers,28.38664,79.43961
-Bareilly,Personal Care,Gangwar Medicos,28.4129,79.46913
-Bareilly,Recreational Activity,PVR Cinemas,28.40744,79.46198
-Bareilly,Coffee,Brewberry's Cafe,28.37692,79.40356
-Bareilly,Stationary,Deepak Book Depot,28.38361,79.40163
-Bareilly,Project Components,Haveli Stores,28.40578,79.46736
-Bareilly,Personal Care,Goel Medical Store,28.3805,79.4104
-Bareilly,Recreational Activity,Hind Talkies,28.37971,79.4093
-Bareilly,Coffee,PK Cafteria,28.38581,79.43648
-Bareilly,Stationary,Deepak Book Depot,28.37463,79.40822
-Bareilly,Project Components,Bhatia Brothers,28.38263,79.44093
-Bareilly,Personal Care,Goel Medical Store,28.37947,79.40413
-Bareilly,Recreational Activity,Hind Talkies,28.38051,79.41236
-Bareilly,Coffee,Summit Coffee Shop,28.41364,79.46986
-Bareilly,Stationary,Mahesouri Stationary,28.41444,79.46139
-Bareilly,Project Components,Sudershan Stores,28.61652,79.17962
-Bareilly,Personal Care,Reliance Medical Store,28.38332,79.43607
-Bareilly,Recreational Activity,Star World Cinema,28.62321,79.17985
-Bareilly,Coffee,Brewberry's Cafe,28.37543,79.40949
-Bareilly,Stationary,Deepak Book Depot,28.38487,79.40204
-Bareilly,Project Components,Gopal Ji Generals,28.38494,79.40592
-Bareilly,Personal Care,Goel Medical Store,28.3823,79.40812
-Bareilly,Recreational Activity,Hind Talkies,28.37996,79.40207
-Ranchi,Coffee,Mehta Coffee Shop,23.23677,84.89964
-Ranchi,Stationary,Anzala Stationary,23.23199,84.90076
-Ranchi,Project Components,Morias Project Morabadi,23.35285,85.31691
-Ranchi,Personal Care,Avishka Medical Store,23.23756,84.89125
-Ranchi,Recreational Activity,Nucleus Mall,23.23922,84.89089
-Ranchi,Coffee,Urban Tapri,23.40842,85.4873
-Ranchi,Stationary,Mithala Stationary,23.35443,85.31849
-Ranchi,Project Components,Morias Project Morabadi,23.34518,85.31694
-Ranchi,Personal Care,Kushi General Stores,23.35154,85.31811
-Ranchi,Recreational Activity,Nucleus Mall,23.23787,84.89619
-Ranchi,Coffee,Amrit Dhaara,23.34813,85.31474
-Ranchi,Stationary,Mithala Stationary,23.35436,85.31264
-Ranchi,Project Components,Kaifi Center,23.41032,85.48917
-Ranchi,Personal Care,Kushi General Stores,23.35027,85.31877
-Ranchi,Recreational Activity,TGV Cinemas,23.35178,85.31777
-Ranchi,Coffee,Hot N Cold,23.38556,85.31434
-Ranchi,Stationary,Mithala Stationary,23.35267,85.32042
-Ranchi,Project Components,Kaifi Center,23.41076,85.49208
-Ranchi,Personal Care,New Mesra Medical Hall,23.3797,85.31889
-Ranchi,Recreational Activity,Petronas NGV Mall,23.41265,85.48594
-Ranchi,Coffee,Amrit Dhaara,23.34537,85.3146
-Ranchi,Stationary,Mithala Stationary,23.35142,85.31053
-Ranchi,Project Components,Morias Project Morabadi,23.35308,85.31529
-Ranchi,Personal Care,Kushi General Stores,23.35117,85.3099
-Ranchi,Recreational Activity,Cinetown Laxmi,23.37843,85.31215
-Ranchi,Coffee,Mehta Coffee Shop,23.23999,84.89366
-Ranchi,Stationary,Mithala Stationary,23.34813,85.31376
-Ranchi,Project Components,Morias Project Morabadi,23.35055,85.31386
-Ranchi,Personal Care,Kushi General Stores,23.35215,85.31164
-Ranchi,Recreational Activity,Nucleus Mall,23.24153,84.8982
-Ranchi,Coffee,Amrit Dhaara,23.34474,85.31544
-Ranchi,Stationary,Mithala Stationary,23.34552,85.31468
-Ranchi,Project Components,Gutuwa Projects,23.37556,85.31467
-Ranchi,Personal Care,Kushi General Stores,23.34622,85.31193
-Ranchi,Recreational Activity,Nucleus Mall,23.2388,84.89299
-Ranchi,Coffee,Hot N Cold,23.38588,85.3124
-Ranchi,Stationary,Mithala Stationary,23.34514,85.31796
-Ranchi,Project Components,Gutuwa Projects,23.38159,85.31729
-Ranchi,Personal Care,Life Line Medical,23.40536,85.49442
-Ranchi,Recreational Activity,Petronas NGV Mall,23.40571,85.48581
-Ranchi,Coffee,Urban Tapri,23.40763,85.48685
-Ranchi,Stationary,Mithala Stationary,23.35153,85.31098
-Ranchi,Project Components,Kaifi Center,23.41369,85.49094
-Ranchi,Personal Care,Kushi General Stores,23.3534,85.31426
-Ranchi,Recreational Activity,Petronas NGV Mall,23.41029,85.4906
-Ranchi,Coffee,Urban Tapri,23.4106,85.48885
-Ranchi,Stationary,Mithala Stationary,23.34542,85.31089
-Ranchi,Project Components,Bilkish Components,23.23899,84.89298
-Ranchi,Personal Care,Kushi General Stores,23.35489,85.32024
-Ranchi,Recreational Activity,Petronas NGV Mall,23.40575,85.48809
-Ranchi,Coffee,Amrit Dhaara,23.3489,85.31841
-Ranchi,Stationary,Mithala Stationary,23.34637,85.31042
-Ranchi,Project Components,Morias Project Morabadi,23.3475,85.3174
-Ranchi,Personal Care,Kushi General Stores,23.35198,85.31408
-Ranchi,Recreational Activity,Petronas NGV Mall,23.41263,85.49539
-Ranchi,Coffee,Urban Tapri,23.40901,85.48937
-Ranchi,Stationary,Mithala Stationary,23.34806,85.3192
-Ranchi,Project Components,Morias Project Morabadi,23.35211,85.31589
-Ranchi,Personal Care,Kushi General Stores,23.3447,85.31926
-Ranchi,Recreational Activity,Petronas NGV Mall,23.40931,85.49156
-Ranchi,Coffee,Hot N Cold,23.38151,85.31424
-Ranchi,Stationary,Mithala Stationary,23.35207,85.31389
-Ranchi,Project Components,Morias Project Morabadi,23.34822,85.31999
-Ranchi,Personal Care,Kushi General Stores,23.35385,85.31012
-Ranchi,Recreational Activity,Cinetown Laxmi,23.37838,85.3156
-Ranchi,Coffee,Hot N Cold,23.38355,85.31577
-Ranchi,Stationary,Mithala Stationary,23.35066,85.31917
-Ranchi,Project Components,Morias Project Morabadi,23.34771,85.3131
-Ranchi,Personal Care,Kushi General Stores,23.34589,85.3151
-Ranchi,Recreational Activity,Petronas NGV Mall,23.41149,85.49407
-New Delhi,Coffee,Onkar Cafe,28.72832,77.11193
-New Delhi,Stationary,Chhabra Stationary Store,28.72312,77.11412
-New Delhi,Project Components,Vikas Bharadwaj Trading,28.72555,77.11615
-New Delhi,Personal Care,Doaba Medical Store,28.72924,77.11883
-New Delhi,Recreational Activity,Omega Mall,28.72869,77.11744
-Ranchi,Coffee,Urban Tapri,23.40541,85.48884
-Ranchi,Stationary,Mithala Stationary,23.35427,85.30991
-Ranchi,Project Components,Morias Project Morabadi,23.3462,85.31438
-Ranchi,Personal Care,Life Line Medical,23.40963,85.49297
-Ranchi,Recreational Activity,Petronas NGV Mall,23.41241,85.48734
-New Delhi,Coffee,Onkar Cafe,28.72605,77.11504
-New Delhi,Stationary,Chhabra Stationary Store,28.72202,77.11933
-New Delhi,Project Components,Shiv Components,28.63562,77.23017
-New Delhi,Personal Care,Doaba Medical Store,28.72893,77.11296
-New Delhi,Recreational Activity,DLF Mall of India,28.6982,77.11466
-Ranchi,Coffee,Urban Tapri,23.41272,85.48845
-Ranchi,Stationary,Mithala Stationary,23.35334,85.32037
-Ranchi,Project Components,Morias Project Morabadi,23.35142,85.31627
-Ranchi,Personal Care,New Mesra Medical Hall,23.37959,85.31448
-Ranchi,Recreational Activity,Petronas NGV Mall,23.41273,85.49589
-Ranchi,Coffee,Urban Tapri,23.40974,85.48776
-Ranchi,Stationary,Mithala Stationary,23.34965,85.32031
-Ranchi,Project Components,Kaifi Center,23.41439,85.49116
-Ranchi,Personal Care,Kushi General Stores,23.35042,85.32005
-Ranchi,Recreational Activity,Petronas NGV Mall,23.4074,85.49268
-Ranchi,Coffee,Hot N Cold,23.37668,85.31412
-Ranchi,Stationary,Mithala Stationary,23.35507,85.31952
-Ranchi,Project Components,Kaifi Center,23.41301,85.48833
-Ranchi,Personal Care,Kushi General Stores,23.34757,85.31553
-Ranchi,Recreational Activity,Nucleus Mall,23.23927,84.9002
-Ranchi,Coffee,Hot N Cold,23.38229,85.31705
-Ranchi,Stationary,Mithala Stationary,23.3444,85.31505
-Ranchi,Project Components,Morias Project Morabadi,23.35241,85.31569
-Ranchi,Personal Care,Kushi General Stores,23.35308,85.31695
-Ranchi,Recreational Activity,Cinetown Laxmi,23.37993,85.31282
-Ranchi,Coffee,Hot N Cold,23.38098,85.32044
-Ranchi,Stationary,Mithala Stationary,23.34473,85.31143
-Ranchi,Project Components,Gutuwa Projects,23.37744,85.32135
-Ranchi,Personal Care,Kushi General Stores,23.35429,85.31359
-Ranchi,Recreational Activity,Cinetown Laxmi,23.38398,85.31894
-Ranchi,Coffee,Mehta Coffee Shop,23.23713,84.9002
-Ranchi,Stationary,Anzala Stationary,23.24112,84.90063
-Ranchi,Project Components,Bilkish Components,23.23158,84.89387
-Ranchi,Personal Care,Avishka Medical Store,23.24021,84.89631
-Ranchi,Recreational Activity,Nucleus Mall,23.23675,84.8994
-New Delhi,Coffee,Maggi Baba,28.6973,77.11696
-New Delhi,Stationary,Chhabra Stationary Store,28.73002,77.11419
-New Delhi,Project Components,Vikas Bharadwaj Trading,28.72621,77.11483
-New Delhi,Personal Care,Doaba Medical Store,28.7284,77.11742
-New Delhi,Recreational Activity,PVR Cinemas,28.64399,77.22778
-Ranchi,Coffee,Urban Tapri,23.41208,85.4932
-Ranchi,Stationary,Mithala Stationary,23.34654,85.31181
-Ranchi,Project Components,Morias Project Morabadi,23.34934,85.31574
-Ranchi,Personal Care,Kushi General Stores,23.34671,85.31771
-Ranchi,Recreational Activity,Nucleus Mall,23.23187,84.89729
-Ranchi,Coffee,Hot N Cold,23.37961,85.31131
-Ranchi,Stationary,Mithala Stationary,23.3466,85.31669
-Ranchi,Project Components,Morias Project Morabadi,23.35195,85.31827
-Ranchi,Personal Care,Kushi General Stores,23.35022,85.31074
-Ranchi,Recreational Activity,Cinetown Laxmi,23.38494,85.31693
-Ranchi,Coffee,Hot N Cold,23.37804,85.31445
-Ranchi,Stationary,Mithala Stationary,23.35481,85.31887
-Ranchi,Project Components,Gutuwa Projects,23.38528,85.32173
-Ranchi,Personal Care,Kushi General Stores,23.34876,85.31874
-Ranchi,Recreational Activity,Cinetown Laxmi,23.37798,85.31819
-Udupi,Coffee,Coffee Day,13.3638,74.71009
-Udupi,Stationary,Shenoy General Stores,13.34907,74.75693
-Udupi,Project Components,Prem Project Works,13.57494,74.70757
-Udupi,Personal Care,Jan Aushadi,13.3456,74.75416
-Udupi,Recreational Activity,Diana Theatre,13.34933,74.75672
-Udupi,Coffee,Scirocco Cafe,13.34511,74.75241
-Udupi,Stationary,Shenoy General Stores,13.34374,74.75294
-Udupi,Project Components,Master Components,13.34711,74.75644
-Udupi,Personal Care,Jan Aushadi,13.34872,74.76125
-Udupi,Recreational Activity,Canara Mall,13.61965,74.67895
-Udupi,Coffee,Scirocco Cafe,13.34813,74.76298
-Udupi,Stationary,Shenoy General Stores,13.34157,74.75627
-Udupi,Project Components,Mahalasa Components,13.36348,74.70696
-Udupi,Personal Care,Jan Aushadi,13.34451,74.76237
-Udupi,Recreational Activity,Diana Theatre,13.34435,74.75626
-Udupi,Coffee,Scirocco Cafe,13.34652,74.75957
-Udupi,Stationary,Shenoy General Stores,13.34794,74.75265
-Udupi,Project Components,Master Components,13.34369,74.75357
-Udupi,Personal Care,Jan Aushadi,13.35048,74.75321
-Udupi,Recreational Activity,Diana Theatre,13.35085,74.76239
-Udupi,Coffee,Scirocco Cafe,13.35128,74.75726
-Udupi,Stationary,Shenoy General Stores,13.3468,74.7602
-Udupi,Project Components,Mahalasa Components,13.36395,74.71368
-Udupi,Personal Care,Jan Aushadi,13.34429,74.75781
-Udupi,Recreational Activity,Diana Theatre,13.35134,74.75245
-Ranchi,Coffee,Hot N Cold,23.38297,85.32032
-Ranchi,Stationary,Mithala Stationary,23.3498,85.31293
-Ranchi,Project Components,Kaifi Center,23.41363,85.4946
-Ranchi,Personal Care,Kushi General Stores,23.35234,85.31229
-Ranchi,Recreational Activity,Petronas NGV Mall,23.4086,85.49338
-Chittoor,Coffee,Honey Bee cafe,13.2191,791009.00965
-Chittoor,Stationary,Sri Book Sellers,13.22608,791009.00867
-Chittoor,Project Components,Vijaya Logistics,13.46088,79.12127
-Chittoor,Personal Care,Appolo Medical Store,13.21893,791009.00032
-Chittoor,Recreational Activity,S.D.C Cinemas,13.45911,79.1198
-Chittoor,Coffee,Honey Bee cafe,13.22548,791009.00714
-Chittoor,Stationary,Rajesh Stores,13.45889,79.1267
-Chittoor,Project Components,Vijaya Logistics,13.45925,79.12356
-Chittoor,Personal Care,Neela Medicos,13.46126,79.12532
-Chittoor,Recreational Activity,S.D.C Cinemas,13.45567,79.12079
-Sri City,Coffee,Jaishree Fresh Juice Shop,13.7118,80.02171
-Sri City,Stationary,New Star Xerox,13.71046,80.01951
-Sri City,Project Components,Roland Components,14.14935,79.85964
-Sri City,Personal Care,Ayaapa Medicos,13.4094,80.11158
-Sri City,Recreational Activity,Gori Multiplex,13.41479,80.11347
-Sri City,Coffee,New City,13.59161,80.02935
-Sri City,Stationary,Vital Stationary,13.59288,80.02832
-Sri City,Project Components,Roland Components,14.14793,79.85993
-Sri City,Personal Care,SriCity Medicals Center,13.59124,80.0283
-Sri City,Recreational Activity,Gori Multiplex,13.41059,80.11333
-Sri City,Coffee,New City,13.58948,80.03838
-Sri City,Stationary,Vital Stationary,13.59503,80.02856
-Sri City,Project Components,Roland Components,14.14646,79.85616
-Sri City,Personal Care,Ayaapa Medicos,13.41033,80.12028
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.15584,79.85419
-Sri City,Coffee,New City,13.59965,80.03539
-Sri City,Stationary,New Star Xerox,13.70612,80.02098
-Sri City,Project Components,Roland Components,14.15501,79.85099
-Sri City,Personal Care,Sankara Netralaya,13.7088,80.02796
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.14929,79.85797
-Chittoor,Coffee,Honey Bee cafe,13.22789,791009.00975
-Chittoor,Stationary,Madhu Book Stall,13.22765,79.10215
-Chittoor,Project Components,Vijaya Logistics,13.45217,79.118
-Chittoor,Personal Care,Medplus Pharmacy,13.22087,79.10362
-Chittoor,Recreational Activity,S.D.C Cinemas,13.46107,79.12506
-Sri City,Coffee,New City,13.5971,80.03209
-Sri City,Stationary,Vital Stationary,13.59994,80.03723
-Sri City,Project Components,EmbSys Store,13.41436,80.12031
-Sri City,Personal Care,SriCity Medicals Center,13.599,80.03049
-Sri City,Recreational Activity,Gori Multiplex,13.41538,80.11448
-Chittoor,Coffee,Student Tea Corner,13.22858,79.10585
-Chittoor,Stationary,Sri Book Sellers,13.22653,791009.00891
-Chittoor,Project Components,Vijaya Logistics,13.46076,79.12149
-Chittoor,Personal Care,Appolo Medical Store,13.2254,791009.00563
-Chittoor,Recreational Activity,S.D.C Cinemas,13.45405,79.12074
-Chittoor,Coffee,Honey Bee cafe,13.22184,791009.01066
-Chittoor,Stationary,Madhu Book Stall,13.22373,79.10665
-Chittoor,Project Components,Vijaya Logistics,13.4572,79.11912
-Chittoor,Personal Care,Appolo Medical Store,13.22821,791009.00986
-Chittoor,Recreational Activity,Raghava Cinemas,13.22562,791009.00166
-Sri City,Coffee,Jaishree Fresh Juice Shop,13.70699,80.0277
-Sri City,Stationary,Vital Stationary,13.59402,80.03375
-Sri City,Project Components,Roland Components,14.1477,79.85488
-Sri City,Personal Care,SriCity Medicals Center,13.59457,80.03481
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.1526,79.85886
-Sri City,Coffee,New City,13.59529,80.03835
-Sri City,Stationary,Vital Stationary,13.59441,80.02938
-Sri City,Project Components,EmbSys Store,13.4141,80.11566
-Sri City,Personal Care,Sankara Netralaya,13.70211,80.02489
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.1562,79.85802
-Sri City,Coffee,New City,13.59301,80.03842
-Sri City,Stationary,New Star Xerox,13.70913,80.02066
-Sri City,Project Components,EmbSys Store,13.41348,80.12119
-Sri City,Personal Care,Pranavi Medicals,14.15612,79.85577
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.15043,79.86109
-Sri City,Coffee,New City,13.59553,80.03405
-Sri City,Stationary,Vital Stationary,13.5921,80.0392
-Sri City,Project Components,Nelcast Pvt. Ltd.,13.71117,80.02435
-Sri City,Personal Care,Sankara Netralaya,13.70591,80.0223
-Sri City,Recreational Activity,Gori Multiplex,13.41273,80.11475
-Sri City,Coffee,New City,13.59408,80.03437
-Sri City,Stationary,Vital Stationary,13.5926,80.0284
-Sri City,Project Components,EmbSys Store,13.41509,80.11806
-Sri City,Personal Care,Ayaapa Medicos,13.40909,80.11776
-Sri City,Recreational Activity,SVN Movies,13.7041,80.0269
-Sri City,Coffee,New City,13.59433,80.03828
-Sri City,Stationary,New Star Xerox,13.71031,80.02107
-Sri City,Project Components,EmbSys Store,13.41356,80.11904
-Sri City,Personal Care,SriCity Medicals Center,13.59588,80.03307
-Sri City,Recreational Activity,SVN Movies,13.70725,80.01862
-Sri City,Coffee,New City,13.59326,80.02923
-Sri City,Stationary,Vital Stationary,13.59068,80.03708
-Sri City,Project Components,Roland Components,14.14731,79.85975
-Sri City,Personal Care,Sankara Netralaya,13.71232,80.02201
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.1556,79.85809
-Sri City,Coffee,New City,13.59486,80.03661
-Sri City,Stationary,New Star Xerox,13.70294,80.01815
-Sri City,Project Components,EmbSys Store,13.41052,80.11505
-Sri City,Personal Care,SriCity Medicals Center,13.59719,80.03722
-Sri City,Recreational Activity,Gori Multiplex,13.4161,80.11576
-Sri City,Coffee,Jaishree Fresh Juice Shop,13.70215,80.02334
-Sri City,Stationary,New Star Xerox,13.7105,80.02887
-Sri City,Project Components,Roland Components,14.15596,79.85762
-Sri City,Personal Care,Sankara Netralaya,13.70518,80.01949
-Sri City,Recreational Activity,Gori Multiplex,13.41231,80.11192
-Sri City,Coffee,New City,13.59263,80.036
-Sri City,Stationary,Vital Stationary,13.59094,80.03201
-Sri City,Project Components,Roland Components,14.14841,79.85531
-Sri City,Personal Care,Pranavi Medicals,14.15005,79.85406
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.15601,79.85344
-Sri City,Coffee,New City,13.59185,80.035
-Sri City,Stationary,Vital Stationary,13.59038,80.03566
-Sri City,Project Components,Roland Components,14.15298,79.85755
-Sri City,Personal Care,Sankara Netralaya,13.70546,80.02421
-Sri City,Recreational Activity,SVN Movies,13.71082,80.0222
-Sri City,Coffee,New City,13.58984,80.03655
-Sri City,Stationary,Vital Stationary,13.59586,80.03013
-Sri City,Project Components,Reddy Project Components,13.59254,80.03924
-Sri City,Personal Care,SriCity Medicals Center,13.59253,80.02947
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.1491,79.85483
-Chittoor,Coffee,Honey Bee cafe,13.22078,791009.0098
-Chittoor,Stationary,Madhu Book Stall,13.22915,79.1098
-Chittoor,Project Components,Bhaskara Components,13.22703,79.10449
-Chittoor,Personal Care,Medplus Pharmacy,13.22457,79.11164
-Chittoor,Recreational Activity,S.D.C Cinemas,13.4521,79.12379
-Sri City,Coffee,Jaishree Fresh Juice Shop,13.70566,80.02456
-Sri City,Stationary,Vital Stationary,13.59004,80.03455
-Sri City,Project Components,Nelcast Pvt. Ltd.,13.70618,80.02175
-Sri City,Personal Care,Sankara Netralaya,13.7082,80.02484
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.14747,79.86031
-Sri City,Coffee,New City,13.59105,80.03281
-Sri City,Stationary,Vital Stationary,13.59962,80.03889
-Sri City,Project Components,Nelcast Pvt. Ltd.,13.70854,80.02163
-Sri City,Personal Care,SriCity Medicals Center,13.5962,80.03584
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.15181,79.85606
-Sri City,Coffee,New City,13.58971,80.03436
-Sri City,Stationary,Vital Stationary,13.59558,80.03327
-Sri City,Project Components,Roland Components,14.15537,79.85181
-Sri City,Personal Care,SriCity Medicals Center,13.59083,80.03822
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.15655,79.85319
-Sri City,Coffee,New City,13.59415,80.03785
-Sri City,Stationary,Shri Viba Stores,13.4157,80.11736
-Sri City,Project Components,Roland Components,14.15425,79.85778
-Sri City,Personal Care,SriCity Medicals Center,13.5946,80.03594
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.15514,79.85612
-Sri City,Coffee,New City,13.59472,80.02996
-Sri City,Stationary,Vital Stationary,13.59598,80.03104
-Sri City,Project Components,Reddy Project Components,13.59485,80.03155
-Sri City,Personal Care,SriCity Medicals Center,13.59061,80.03696
-Sri City,Recreational Activity,Sankara Movies,13.59265,80.03851
-Sri City,Coffee,Jaishree Fresh Juice Shop,13.70732,80.02905
-Sri City,Stationary,New Star Xerox,13.70391,80.02443
-Sri City,Project Components,Nelcast Pvt. Ltd.,13.7058,80.02817
-Sri City,Personal Care,Sankara Netralaya,13.71259,80.0191
-Sri City,Recreational Activity,Gori Multiplex,13.41581,80.11421
-Sri City,Coffee,New City,13.59568,80.03677
-Sri City,Stationary,Shri Viba Stores,13.41445,80.11118
-Sri City,Project Components,Roland Components,14.15686,79.85682
-Sri City,Personal Care,Sankara Netralaya,13.70845,80.01812
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.1517,79.85378
-Chittoor,Coffee,Student Tea Corner,13.22719,79.10183
-Chittoor,Stationary,Madhu Book Stall,13.22682,79.10574
-Chittoor,Project Components,Vijaya Logistics,13.45324,79.12741
-Chittoor,Personal Care,Medplus Pharmacy,13.21995,79.1026
-Chittoor,Recreational Activity,S.D.C Cinemas,13.46092,79.12313
-Sri City,Coffee,Jaishree Fresh Juice Shop,13.7036,80.02722
-Sri City,Stationary,Vital Stationary,13.5991,80.03086
-Sri City,Project Components,EmbSys Store,13.41437,80.11688
-Sri City,Personal Care,Pranavi Medicals,14.153,79.85299
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.15297,79.8561
-Sri City,Coffee,Jaishree Fresh Juice Shop,13.70264,80.02796
-Sri City,Stationary,Vital Stationary,13.59586,80.03287
-Sri City,Project Components,Nelcast Pvt. Ltd.,13.70634,80.0245
-Sri City,Personal Care,Sankara Netralaya,13.70988,80.02778
-Sri City,Recreational Activity,Gori Multiplex,13.41425,80.11548
-Sri City,Coffee,New City,13.59501,80.03139
-Sri City,Stationary,Vital Stationary,13.59501,80.03544
-Sri City,Project Components,Reddy Project Components,13.59861,80.02894
-Sri City,Personal Care,SriCity Medicals Center,13.59872,80.03318
-Sri City,Recreational Activity,Sankara Movies,13.59722,80.03538
-Sri City,Coffee,New City,13.59823,80.03775
-Sri City,Stationary,New Star Xerox,13.70753,80.02897
-Sri City,Project Components,EmbSys Store,13.41232,80.11298
-Sri City,Personal Care,Sankara Netralaya,13.70317,80.0206
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.1499,79.85437
-Sri City,Coffee,Jaishree Fresh Juice Shop,13.71212,80.02756
-Sri City,Stationary,Vital Stationary,13.59115,80.03014
-Sri City,Project Components,Roland Components,14.15562,79.85108
-Sri City,Personal Care,SriCity Medicals Center,13.59927,80.0315
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.15217,79.85835
-Chittoor,Coffee,Student Tea Corner,13.21971,79.10132
-Chittoor,Stationary,Sri Book Sellers,13.22363,791009.00801
-Chittoor,Project Components,Vijaya Logistics,13.45655,79.12044
-Chittoor,Personal Care,Appolo Medical Store,13.21992,791009.0076
-Chittoor,Recreational Activity,S.D.C Cinemas,13.45998,79.123
-Sri City,Coffee,New City,13.59079,80.02894
-Sri City,Stationary,Shri Viba Stores,13.41134,80.11095
-Sri City,Project Components,Roland Components,14.14772,79.85285
-Sri City,Personal Care,SriCity Medicals Center,13.59493,80.03163
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.15365,79.8571
-Sri City,Coffee,New City,13.59711,80.03575
-Sri City,Stationary,New Star Xerox,13.70476,80.02706
-Sri City,Project Components,Roland Components,14.1479,79.85666
-Sri City,Personal Care,Sankara Netralaya,13.71162,80.02747
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.14917,79.85553
-Sri City,Coffee,Jaishree Fresh Juice Shop,13.70589,80.02485
-Sri City,Stationary,New Star Xerox,13.71216,80.02418
-Sri City,Project Components,Roland Components,14.15258,79.85267
-Sri City,Personal Care,SriCity Medicals Center,13.5966,80.03422
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.14987,79.85231
-Sri City,Coffee,Jaishree Fresh Juice Shop,13.7021,80.02703
-Sri City,Stationary,New Star Xerox,13.70736,80.01887
-Sri City,Project Components,Roland Components,14.14636,79.85515
-Sri City,Personal Care,Sankara Netralaya,13.70448,80.02618
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.15108,79.85292
-Chittoor,Coffee,Student Tea Corner,13.22871,79.10933
-Chittoor,Stationary,Madhu Book Stall,13.22316,79.10646
-Chittoor,Project Components,Bhaskara Components,13.22906,79.10945
-Chittoor,Personal Care,Medplus Pharmacy,13.2248,79.10568
-Chittoor,Recreational Activity,Sri Cinamas,13.22847,79.10213
-Chittoor,Coffee,Student Tea Corner,13.23055,79.10728
-Chittoor,Stationary,MB Stores,13.23869,79.11038
-Chittoor,Project Components,Vijaya Logistics,13.45232,79.12607
-Chittoor,Personal Care,Neela Medicos,13.46114,79.12292
-Chittoor,Recreational Activity,Sri Cinamas,13.22067,79.10864
-Chittoor,Coffee,Student Tea Corner,13.22281,79.10132
-Chittoor,Stationary,Sri Book Sellers,13.22221,791009.00419
-Chittoor,Project Components,Vijaya Logistics,13.45721,79.12651
-Chittoor,Personal Care,Medplus Pharmacy,13.22843,79.10647
-Chittoor,Recreational Activity,Divya Mall,13.24433,79.11104
-Sri City,Coffee,Jaishree Fresh Juice Shop,13.71241,80.02788
-Sri City,Stationary,Vital Stationary,13.59717,80.0296
-Sri City,Project Components,Roland Components,14.14956,79.85299
-Sri City,Personal Care,Ayaapa Medicos,13.41784,80.11342
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.15286,79.85751
-Sri City,Coffee,Jaishree Fresh Juice Shop,13.70712,80.02768
-Sri City,Stationary,New Star Xerox,13.71176,80.02662
-Sri City,Project Components,EmbSys Store,13.40799,80.12018
-Sri City,Personal Care,Sankara Netralaya,13.7032,80.01874
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.14886,79.85603
-Sri City,Coffee,Jaishree Fresh Juice Shop,13.71232,80.02699
-Sri City,Stationary,New Star Xerox,13.71141,80.02598
-Sri City,Project Components,Roland Components,14.14737,79.85349
-Sri City,Personal Care,Sankara Netralaya,13.7121,80.02868
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.1465,79.85576
-Sri City,Coffee,Cafe Coffee Day,14.1474,79.85811
-Sri City,Stationary,Mohan Stationary,14.15498,79.85493
-Sri City,Project Components,Roland Components,14.15078,79.85635
-Sri City,Personal Care,Pranavi Medicals,14.15659,79.86004
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.15222,79.85925
-Sri City,Coffee,New City,13.59754,80.03546
-Sri City,Stationary,Vital Stationary,13.59195,80.0308
-Sri City,Project Components,Reddy Project Components,13.58932,80.02955
-Sri City,Personal Care,SriCity Medicals Center,13.58961,80.03842
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.15328,79.86072
-Sri City,Coffee,New City,13.59451,80.02855
-Sri City,Stationary,Vital Stationary,13.59202,80.0349
-Sri City,Project Components,Roland Components,14.15465,79.85887
-Sri City,Personal Care,Ayaapa Medicos,13.4095,80.11857
-Sri City,Recreational Activity,Gori Multiplex,13.41399,80.11377
-Sri City,Coffee,Cafe Tada,13.41076,80.11596
-Sri City,Stationary,New Star Xerox,13.70256,80.0242
-Sri City,Project Components,Roland Components,14.14671,79.85144
-Sri City,Personal Care,SriCity Medicals Center,13.59737,80.03141
-Sri City,Recreational Activity,Sri Lakshmi Theatres,14.15595,79.85198
+Bareilly,cafes and restaurants,Summit Coffee Shop,28.41069,79.46397
+Bareilly,Stationary Shops,Mahesouri Stationary,28.41353,79.46135
+Bareilly,Hardware Stores,Bhatia Brothers,28.38664,79.43961
+Bareilly,Medical Centers,Gangwar Medicos,28.4129,79.46913
+Bareilly,Malls,PVR Cinemas,28.40744,79.46198
+Bareilly,cafes and restaurants,Brewberry's Cafe,28.37692,79.40356
+Bareilly,Stationary Shops,Deepak Book Depot,28.38361,79.40163
+Bareilly,Hardware Stores,Haveli Stores,28.40578,79.46736
+Bareilly,Medical Centers,Goel Medical Store,28.3805,79.4104
+Bareilly,Malls,Hind Talkies,28.37971,79.4093
+Bareilly,cafes and restaurants,PK Cafteria,28.38581,79.43648
+Bareilly,Stationary Shops,Deepak Book Depot,28.37463,79.40822
+Bareilly,Hardware Stores,Bhatia Brothers,28.38263,79.44093
+Bareilly,Medical Centers,Goel Medical Store,28.37947,79.40413
+Bareilly,Malls,Hind Talkies,28.38051,79.41236
+Bareilly,cafes and restaurants,Summit Coffee Shop,28.41364,79.46986
+Bareilly,Stationary Shops,Mahesouri Stationary,28.41444,79.46139
+Bareilly,Hardware Stores,Sudershan Stores,28.61652,79.17962
+Bareilly,Medical Centers,Reliance Medical Store,28.38332,79.43607
+Bareilly,Malls,Star World Cinema,28.62321,79.17985
+Bareilly,cafes and restaurants,Brewberry's Cafe,28.37543,79.40949
+Bareilly,Stationary Shops,Deepak Book Depot,28.38487,79.40204
+Bareilly,Hardware Stores,Gopal Ji Generals,28.38494,79.40592
+Bareilly,Medical Centers,Goel Medical Store,28.3823,79.40812
+Bareilly,Malls,Hind Talkies,28.37996,79.40207
+Ranchi,cafes and restaurants,Mehta Coffee Shop,23.23677,84.89964
+Ranchi,Stationary Shops,Anzala Stationary,23.23199,84.90076
+Ranchi,Hardware Stores,Morias Project Morabadi,23.35285,85.31691
+Ranchi,Medical Centers,Avishka Medical Store,23.23756,84.89125
+Ranchi,Malls,Nucleus Mall,23.23922,84.89089
+Ranchi,cafes and restaurants,Urban Tapri,23.40842,85.4873
+Ranchi,Stationary Shops,Mithala Stationary,23.35443,85.31849
+Ranchi,Hardware Stores,Morias Project Morabadi,23.34518,85.31694
+Ranchi,Medical Centers,Kushi General Stores,23.35154,85.31811
+Ranchi,Malls,Nucleus Mall,23.23787,84.89619
+Ranchi,cafes and restaurants,Amrit Dhaara,23.34813,85.31474
+Ranchi,Stationary Shops,Mithala Stationary,23.35436,85.31264
+Ranchi,Hardware Stores,Kaifi Center,23.41032,85.48917
+Ranchi,Medical Centers,Kushi General Stores,23.35027,85.31877
+Ranchi,Malls,TGV Cinemas,23.35178,85.31777
+Ranchi,cafes and restaurants,Hot N Cold,23.38556,85.31434
+Ranchi,Stationary Shops,Mithala Stationary,23.35267,85.32042
+Ranchi,Hardware Stores,Kaifi Center,23.41076,85.49208
+Ranchi,Medical Centers,New Mesra Medical Hall,23.3797,85.31889
+Ranchi,Malls,Petronas NGV Mall,23.41265,85.48594
+Ranchi,cafes and restaurants,Amrit Dhaara,23.34537,85.3146
+Ranchi,Stationary Shops,Mithala Stationary,23.35142,85.31053
+Ranchi,Hardware Stores,Morias Project Morabadi,23.35308,85.31529
+Ranchi,Medical Centers,Kushi General Stores,23.35117,85.3099
+Ranchi,Malls,Cinetown Laxmi,23.37843,85.31215
+Ranchi,cafes and restaurants,Mehta Coffee Shop,23.23999,84.89366
+Ranchi,Stationary Shops,Mithala Stationary,23.34813,85.31376
+Ranchi,Hardware Stores,Morias Project Morabadi,23.35055,85.31386
+Ranchi,Medical Centers,Kushi General Stores,23.35215,85.31164
+Ranchi,Malls,Nucleus Mall,23.24153,84.8982
+Ranchi,cafes and restaurants,Amrit Dhaara,23.34474,85.31544
+Ranchi,Stationary Shops,Mithala Stationary,23.34552,85.31468
+Ranchi,Hardware Stores,Gutuwa Projects,23.37556,85.31467
+Ranchi,Medical Centers,Kushi General Stores,23.34622,85.31193
+Ranchi,Malls,Nucleus Mall,23.2388,84.89299
+Ranchi,cafes and restaurants,Hot N Cold,23.38588,85.3124
+Ranchi,Stationary Shops,Mithala Stationary,23.34514,85.31796
+Ranchi,Hardware Stores,Gutuwa Projects,23.38159,85.31729
+Ranchi,Medical Centers,Life Line Medical,23.40536,85.49442
+Ranchi,Malls,Petronas NGV Mall,23.40571,85.48581
+Ranchi,cafes and restaurants,Urban Tapri,23.40763,85.48685
+Ranchi,Stationary Shops,Mithala Stationary,23.35153,85.31098
+Ranchi,Hardware Stores,Kaifi Center,23.41369,85.49094
+Ranchi,Medical Centers,Kushi General Stores,23.3534,85.31426
+Ranchi,Malls,Petronas NGV Mall,23.41029,85.4906
+Ranchi,cafes and restaurants,Urban Tapri,23.4106,85.48885
+Ranchi,Stationary Shops,Mithala Stationary,23.34542,85.31089
+Ranchi,Hardware Stores,Bilkish Components,23.23899,84.89298
+Ranchi,Medical Centers,Kushi General Stores,23.35489,85.32024
+Ranchi,Malls,Petronas NGV Mall,23.40575,85.48809
+Ranchi,cafes and restaurants,Amrit Dhaara,23.3489,85.31841
+Ranchi,Stationary Shops,Mithala Stationary,23.34637,85.31042
+Ranchi,Hardware Stores,Morias Project Morabadi,23.3475,85.3174
+Ranchi,Medical Centers,Kushi General Stores,23.35198,85.31408
+Ranchi,Malls,Petronas NGV Mall,23.41263,85.49539
+Ranchi,cafes and restaurants,Urban Tapri,23.40901,85.48937
+Ranchi,Stationary Shops,Mithala Stationary,23.34806,85.3192
+Ranchi,Hardware Stores,Morias Project Morabadi,23.35211,85.31589
+Ranchi,Medical Centers,Kushi General Stores,23.3447,85.31926
+Ranchi,Malls,Petronas NGV Mall,23.40931,85.49156
+Ranchi,cafes and restaurants,Hot N Cold,23.38151,85.31424
+Ranchi,Stationary Shops,Mithala Stationary,23.35207,85.31389
+Ranchi,Hardware Stores,Morias Project Morabadi,23.34822,85.31999
+Ranchi,Medical Centers,Kushi General Stores,23.35385,85.31012
+Ranchi,Malls,Cinetown Laxmi,23.37838,85.3156
+Ranchi,cafes and restaurants,Hot N Cold,23.38355,85.31577
+Ranchi,Stationary Shops,Mithala Stationary,23.35066,85.31917
+Ranchi,Hardware Stores,Morias Project Morabadi,23.34771,85.3131
+Ranchi,Medical Centers,Kushi General Stores,23.34589,85.3151
+Ranchi,Malls,Petronas NGV Mall,23.41149,85.49407
+New Delhi,cafes and restaurants,Onkar Cafe,28.72832,77.11193
+New Delhi,Stationary Shops,Chhabra Stationary Store,28.72312,77.11412
+New Delhi,Hardware Stores,Vikas Bharadwaj Trading,28.72555,77.11615
+New Delhi,Medical Centers,Doaba Medical Store,28.72924,77.11883
+New Delhi,Malls,Omega Mall,28.72869,77.11744
+Ranchi,cafes and restaurants,Urban Tapri,23.40541,85.48884
+Ranchi,Stationary Shops,Mithala Stationary,23.35427,85.30991
+Ranchi,Hardware Stores,Morias Project Morabadi,23.3462,85.31438
+Ranchi,Medical Centers,Life Line Medical,23.40963,85.49297
+Ranchi,Malls,Petronas NGV Mall,23.41241,85.48734
+New Delhi,cafes and restaurants,Onkar Cafe,28.72605,77.11504
+New Delhi,Stationary Shops,Chhabra Stationary Store,28.72202,77.11933
+New Delhi,Hardware Stores,Shiv Components,28.63562,77.23017
+New Delhi,Medical Centers,Doaba Medical Store,28.72893,77.11296
+New Delhi,Malls,DLF Mall of India,28.6982,77.11466
+Ranchi,cafes and restaurants,Urban Tapri,23.41272,85.48845
+Ranchi,Stationary Shops,Mithala Stationary,23.35334,85.32037
+Ranchi,Hardware Stores,Morias Project Morabadi,23.35142,85.31627
+Ranchi,Medical Centers,New Mesra Medical Hall,23.37959,85.31448
+Ranchi,Malls,Petronas NGV Mall,23.41273,85.49589
+Ranchi,cafes and restaurants,Urban Tapri,23.40974,85.48776
+Ranchi,Stationary Shops,Mithala Stationary,23.34965,85.32031
+Ranchi,Hardware Stores,Kaifi Center,23.41439,85.49116
+Ranchi,Medical Centers,Kushi General Stores,23.35042,85.32005
+Ranchi,Malls,Petronas NGV Mall,23.4074,85.49268
+Ranchi,cafes and restaurants,Hot N Cold,23.37668,85.31412
+Ranchi,Stationary Shops,Mithala Stationary,23.35507,85.31952
+Ranchi,Hardware Stores,Kaifi Center,23.41301,85.48833
+Ranchi,Medical Centers,Kushi General Stores,23.34757,85.31553
+Ranchi,Malls,Nucleus Mall,23.23927,84.9002
+Ranchi,cafes and restaurants,Hot N Cold,23.38229,85.31705
+Ranchi,Stationary Shops,Mithala Stationary,23.3444,85.31505
+Ranchi,Hardware Stores,Morias Project Morabadi,23.35241,85.31569
+Ranchi,Medical Centers,Kushi General Stores,23.35308,85.31695
+Ranchi,Malls,Cinetown Laxmi,23.37993,85.31282
+Ranchi,cafes and restaurants,Hot N Cold,23.38098,85.32044
+Ranchi,Stationary Shops,Mithala Stationary,23.34473,85.31143
+Ranchi,Hardware Stores,Gutuwa Projects,23.37744,85.32135
+Ranchi,Medical Centers,Kushi General Stores,23.35429,85.31359
+Ranchi,Malls,Cinetown Laxmi,23.38398,85.31894
+Ranchi,cafes and restaurants,Mehta Coffee Shop,23.23713,84.9002
+Ranchi,Stationary Shops,Anzala Stationary,23.24112,84.90063
+Ranchi,Hardware Stores,Bilkish Components,23.23158,84.89387
+Ranchi,Medical Centers,Avishka Medical Store,23.24021,84.89631
+Ranchi,Malls,Nucleus Mall,23.23675,84.8994
+New Delhi,cafes and restaurants,Maggi Baba,28.6973,77.11696
+New Delhi,Stationary Shops,Chhabra Stationary Store,28.73002,77.11419
+New Delhi,Hardware Stores,Vikas Bharadwaj Trading,28.72621,77.11483
+New Delhi,Medical Centers,Doaba Medical Store,28.7284,77.11742
+New Delhi,Malls,PVR Cinemas,28.64399,77.22778
+Ranchi,cafes and restaurants,Urban Tapri,23.41208,85.4932
+Ranchi,Stationary Shops,Mithala Stationary,23.34654,85.31181
+Ranchi,Hardware Stores,Morias Project Morabadi,23.34934,85.31574
+Ranchi,Medical Centers,Kushi General Stores,23.34671,85.31771
+Ranchi,Malls,Nucleus Mall,23.23187,84.89729
+Ranchi,cafes and restaurants,Hot N Cold,23.37961,85.31131
+Ranchi,Stationary Shops,Mithala Stationary,23.3466,85.31669
+Ranchi,Hardware Stores,Morias Project Morabadi,23.35195,85.31827
+Ranchi,Medical Centers,Kushi General Stores,23.35022,85.31074
+Ranchi,Malls,Cinetown Laxmi,23.38494,85.31693
+Ranchi,cafes and restaurants,Hot N Cold,23.37804,85.31445
+Ranchi,Stationary Shops,Mithala Stationary,23.35481,85.31887
+Ranchi,Hardware Stores,Gutuwa Projects,23.38528,85.32173
+Ranchi,Medical Centers,Kushi General Stores,23.34876,85.31874
+Ranchi,Malls,Cinetown Laxmi,23.37798,85.31819
+Udupi,cafes and restaurants,Coffee Day,13.3638,74.71009
+Udupi,Stationary Shops,Shenoy General Stores,13.34907,74.75693
+Udupi,Hardware Stores,Prem Project Works,13.57494,74.70757
+Udupi,Medical Centers,Jan Aushadi,13.3456,74.75416
+Udupi,Malls,Diana Theatre,13.34933,74.75672
+Udupi,cafes and restaurants,Scirocco Cafe,13.34511,74.75241
+Udupi,Stationary Shops,Shenoy General Stores,13.34374,74.75294
+Udupi,Hardware Stores,Master Components,13.34711,74.75644
+Udupi,Medical Centers,Jan Aushadi,13.34872,74.76125
+Udupi,Malls,Canara Mall,13.61965,74.67895
+Udupi,cafes and restaurants,Scirocco Cafe,13.34813,74.76298
+Udupi,Stationary Shops,Shenoy General Stores,13.34157,74.75627
+Udupi,Hardware Stores,Mahalasa Components,13.36348,74.70696
+Udupi,Medical Centers,Jan Aushadi,13.34451,74.76237
+Udupi,Malls,Diana Theatre,13.34435,74.75626
+Udupi,cafes and restaurants,Scirocco Cafe,13.34652,74.75957
+Udupi,Stationary Shops,Shenoy General Stores,13.34794,74.75265
+Udupi,Hardware Stores,Master Components,13.34369,74.75357
+Udupi,Medical Centers,Jan Aushadi,13.35048,74.75321
+Udupi,Malls,Diana Theatre,13.35085,74.76239
+Udupi,cafes and restaurants,Scirocco Cafe,13.35128,74.75726
+Udupi,Stationary Shops,Shenoy General Stores,13.3468,74.7602
+Udupi,Hardware Stores,Mahalasa Components,13.36395,74.71368
+Udupi,Medical Centers,Jan Aushadi,13.34429,74.75781
+Udupi,Malls,Diana Theatre,13.35134,74.75245
+Ranchi,cafes and restaurants,Hot N Cold,23.38297,85.32032
+Ranchi,Stationary Shops,Mithala Stationary,23.3498,85.31293
+Ranchi,Hardware Stores,Kaifi Center,23.41363,85.4946
+Ranchi,Medical Centers,Kushi General Stores,23.35234,85.31229
+Ranchi,Malls,Petronas NGV Mall,23.4086,85.49338
+Chittoor,cafes and restaurants,Honey Bee cafe,13.2191,79.00965
+Chittoor,Stationary Shops,Sri Book Sellers,13.22608,79.00867
+Chittoor,Hardware Stores,Vijaya Logistics,13.46088,79.12127
+Chittoor,Medical Centers,Appolo Medical Store,13.21893,79.00032
+Chittoor,Malls,S.D.C Cinemas,13.45911,79.1198
+Chittoor,cafes and restaurants,Honey Bee cafe,13.22548,79.00714
+Chittoor,Stationary Shops,Rajesh Stores,13.45889,79.1267
+Chittoor,Hardware Stores,Vijaya Logistics,13.45925,79.12356
+Chittoor,Medical Centers,Neela Medicos,13.46126,79.12532
+Chittoor,Malls,S.D.C Cinemas,13.45567,79.12079
+Sri City,cafes and restaurants,Jaishree Fresh Juice Shop,13.7118,80.02171
+Sri City,Stationary Shops,New Star Xerox,13.71046,80.01951
+Sri City,Hardware Stores,Roland Components,14.14935,79.85964
+Sri City,Medical Centers,Ayaapa Medicos,13.4094,80.11158
+Sri City,Malls,Gori Multiplex,13.41479,80.11347
+Sri City,cafes and restaurants,New City,13.59161,80.02935
+Sri City,Stationary Shops,Vital Stationary,13.59288,80.02832
+Sri City,Hardware Stores,Roland Components,14.14793,79.85993
+Sri City,Medical Centers,SriCity Medicals Center,13.59124,80.0283
+Sri City,Malls,Gori Multiplex,13.41059,80.11333
+Sri City,cafes and restaurants,New City,13.58948,80.03838
+Sri City,Stationary Shops,Vital Stationary,13.59503,80.02856
+Sri City,Hardware Stores,Roland Components,14.14646,79.85616
+Sri City,Medical Centers,Ayaapa Medicos,13.41033,80.12028
+Sri City,Malls,Sri Lakshmi Theatres,14.15584,79.85419
+Sri City,cafes and restaurants,New City,13.59965,80.03539
+Sri City,Stationary Shops,New Star Xerox,13.70612,80.02098
+Sri City,Hardware Stores,Roland Components,14.15501,79.85099
+Sri City,Medical Centers,Sankara Netralaya,13.7088,80.02796
+Sri City,Malls,Sri Lakshmi Theatres,14.14929,79.85797
+Chittoor,cafes and restaurants,Honey Bee cafe,13.22789,79.00975
+Chittoor,Stationary Shops,Madhu Book Stall,13.22765,79.10215
+Chittoor,Hardware Stores,Vijaya Logistics,13.45217,79.118
+Chittoor,Medical Centers,Medplus Pharmacy,13.22087,79.10362
+Chittoor,Malls,S.D.C Cinemas,13.46107,79.12506
+Sri City,cafes and restaurants,New City,13.5971,80.03209
+Sri City,Stationary Shops,Vital Stationary,13.59994,80.03723
+Sri City,Hardware Stores,EmbSys Store,13.41436,80.12031
+Sri City,Medical Centers,SriCity Medicals Center,13.599,80.03049
+Sri City,Malls,Gori Multiplex,13.41538,80.11448
+Chittoor,cafes and restaurants,Student Tea Corner,13.22858,79.10585
+Chittoor,Stationary Shops,Sri Book Sellers,13.22653,79.00891
+Chittoor,Hardware Stores,Vijaya Logistics,13.46076,79.12149
+Chittoor,Medical Centers,Appolo Medical Store,13.2254,79.00563
+Chittoor,Malls,S.D.C Cinemas,13.45405,79.12074
+Chittoor,cafes and restaurants,Honey Bee cafe,13.22184,79.01066
+Chittoor,Stationary Shops,Madhu Book Stall,13.22373,79.10665
+Chittoor,Hardware Stores,Vijaya Logistics,13.4572,79.11912
+Chittoor,Medical Centers,Appolo Medical Store,13.22821,79.1009
+Chittoor,Malls,Raghava Cinemas,13.22562,79.1009
+Sri City,cafes and restaurants,Jaishree Fresh Juice Shop,13.70699,80.0277
+Sri City,Stationary Shops,Vital Stationary,13.59402,80.03375
+Sri City,Hardware Stores,Roland Components,14.1477,79.85488
+Sri City,Medical Centers,SriCity Medicals Center,13.59457,80.03481
+Sri City,Malls,Sri Lakshmi Theatres,14.1526,79.85886
+Sri City,cafes and restaurants,New City,13.59529,80.03835
+Sri City,Stationary Shops,Vital Stationary,13.59441,80.02938
+Sri City,Hardware Stores,EmbSys Store,13.4141,80.11566
+Sri City,Medical Centers,Sankara Netralaya,13.70211,80.02489
+Sri City,Malls,Sri Lakshmi Theatres,14.1562,79.85802
+Sri City,cafes and restaurants,New City,13.59301,80.03842
+Sri City,Stationary Shops,New Star Xerox,13.70913,80.02066
+Sri City,Hardware Stores,EmbSys Store,13.41348,80.12119
+Sri City,Medical Centers,Pranavi Medicals,14.15612,79.85577
+Sri City,Malls,Sri Lakshmi Theatres,14.15043,79.86109
+Sri City,cafes and restaurants,New City,13.59553,80.03405
+Sri City,Stationary Shops,Vital Stationary,13.5921,80.0392
+Sri City,Hardware Stores,Nelcast Pvt. Ltd.,13.71117,80.02435
+Sri City,Medical Centers,Sankara Netralaya,13.70591,80.0223
+Sri City,Malls,Gori Multiplex,13.41273,80.11475
+Sri City,cafes and restaurants,New City,13.59408,80.03437
+Sri City,Stationary Shops,Vital Stationary,13.5926,80.0284
+Sri City,Hardware Stores,EmbSys Store,13.41509,80.11806
+Sri City,Medical Centers,Ayaapa Medicos,13.40909,80.11776
+Sri City,Malls,SVN Movies,13.7041,80.0269
+Sri City,cafes and restaurants,New City,13.59433,80.03828
+Sri City,Stationary Shops,New Star Xerox,13.71031,80.02107
+Sri City,Hardware Stores,EmbSys Store,13.41356,80.11904
+Sri City,Medical Centers,SriCity Medicals Center,13.59588,80.03307
+Sri City,Malls,SVN Movies,13.70725,80.01862
+Sri City,cafes and restaurants,New City,13.59326,80.02923
+Sri City,Stationary Shops,Vital Stationary,13.59068,80.03708
+Sri City,Hardware Stores,Roland Components,14.14731,79.85975
+Sri City,Medical Centers,Sankara Netralaya,13.71232,80.02201
+Sri City,Malls,Sri Lakshmi Theatres,14.1556,79.85809
+Sri City,cafes and restaurants,New City,13.59486,80.03661
+Sri City,Stationary Shops,New Star Xerox,13.70294,80.01815
+Sri City,Hardware Stores,EmbSys Store,13.41052,80.11505
+Sri City,Medical Centers,SriCity Medicals Center,13.59719,80.03722
+Sri City,Malls,Gori Multiplex,13.4161,80.11576
+Sri City,cafes and restaurants,Jaishree Fresh Juice Shop,13.70215,80.02334
+Sri City,Stationary Shops,New Star Xerox,13.7105,80.02887
+Sri City,Hardware Stores,Roland Components,14.15596,79.85762
+Sri City,Medical Centers,Sankara Netralaya,13.70518,80.01949
+Sri City,Malls,Gori Multiplex,13.41231,80.11192
+Sri City,cafes and restaurants,New City,13.59263,80.036
+Sri City,Stationary Shops,Vital Stationary,13.59094,80.03201
+Sri City,Hardware Stores,Roland Components,14.14841,79.85531
+Sri City,Medical Centers,Pranavi Medicals,14.15005,79.85406
+Sri City,Malls,Sri Lakshmi Theatres,14.15601,79.85344
+Sri City,cafes and restaurants,New City,13.59185,80.035
+Sri City,Stationary Shops,Vital Stationary,13.59038,80.03566
+Sri City,Hardware Stores,Roland Components,14.15298,79.85755
+Sri City,Medical Centers,Sankara Netralaya,13.70546,80.02421
+Sri City,Malls,SVN Movies,13.71082,80.0222
+Sri City,cafes and restaurants,New City,13.58984,80.03655
+Sri City,Stationary Shops,Vital Stationary,13.59586,80.03013
+Sri City,Hardware Stores,Reddy Project Components,13.59254,80.03924
+Sri City,Medical Centers,SriCity Medicals Center,13.59253,80.02947
+Sri City,Malls,Sri Lakshmi Theatres,14.1491,79.85483
+Chittoor,cafes and restaurants,Honey Bee cafe,13.22078,79.0098
+Chittoor,Stationary Shops,Madhu Book Stall,13.22915,79.1098
+Chittoor,Hardware Stores,Bhaskara Components,13.22703,79.10449
+Chittoor,Medical Centers,Medplus Pharmacy,13.22457,79.11164
+Chittoor,Malls,S.D.C Cinemas,13.4521,79.12379
+Sri City,cafes and restaurants,Jaishree Fresh Juice Shop,13.70566,80.02456
+Sri City,Stationary Shops,Vital Stationary,13.59004,80.03455
+Sri City,Hardware Stores,Nelcast Pvt. Ltd.,13.70618,80.02175
+Sri City,Medical Centers,Sankara Netralaya,13.7082,80.02484
+Sri City,Malls,Sri Lakshmi Theatres,14.14747,79.86031
+Sri City,cafes and restaurants,New City,13.59105,80.03281
+Sri City,Stationary Shops,Vital Stationary,13.59962,80.03889
+Sri City,Hardware Stores,Nelcast Pvt. Ltd.,13.70854,80.02163
+Sri City,Medical Centers,SriCity Medicals Center,13.5962,80.03584
+Sri City,Malls,Sri Lakshmi Theatres,14.15181,79.85606
+Sri City,cafes and restaurants,New City,13.58971,80.03436
+Sri City,Stationary Shops,Vital Stationary,13.59558,80.03327
+Sri City,Hardware Stores,Roland Components,14.15537,79.85181
+Sri City,Medical Centers,SriCity Medicals Center,13.59083,80.03822
+Sri City,Malls,Sri Lakshmi Theatres,14.15655,79.85319
+Sri City,cafes and restaurants,New City,13.59415,80.03785
+Sri City,Stationary Shops,Shri Viba Stores,13.4157,80.11736
+Sri City,Hardware Stores,Roland Components,14.15425,79.85778
+Sri City,Medical Centers,SriCity Medicals Center,13.5946,80.03594
+Sri City,Malls,Sri Lakshmi Theatres,14.15514,79.85612
+Sri City,cafes and restaurants,New City,13.59472,80.02996
+Sri City,Stationary Shops,Vital Stationary,13.59598,80.03104
+Sri City,Hardware Stores,Reddy Project Components,13.59485,80.03155
+Sri City,Medical Centers,SriCity Medicals Center,13.59061,80.03696
+Sri City,Malls,Sankara Movies,13.59265,80.03851
+Sri City,cafes and restaurants,Jaishree Fresh Juice Shop,13.70732,80.02905
+Sri City,Stationary Shops,New Star Xerox,13.70391,80.02443
+Sri City,Hardware Stores,Nelcast Pvt. Ltd.,13.7058,80.02817
+Sri City,Medical Centers,Sankara Netralaya,13.71259,80.0191
+Sri City,Malls,Gori Multiplex,13.41581,80.11421
+Sri City,cafes and restaurants,New City,13.59568,80.03677
+Sri City,Stationary Shops,Shri Viba Stores,13.41445,80.11118
+Sri City,Hardware Stores,Roland Components,14.15686,79.85682
+Sri City,Medical Centers,Sankara Netralaya,13.70845,80.01812
+Sri City,Malls,Sri Lakshmi Theatres,14.1517,79.85378
+Chittoor,cafes and restaurants,Student Tea Corner,13.22719,79.10183
+Chittoor,Stationary Shops,Madhu Book Stall,13.22682,79.10574
+Chittoor,Hardware Stores,Vijaya Logistics,13.45324,79.12741
+Chittoor,Medical Centers,Medplus Pharmacy,13.21995,79.1026
+Chittoor,Malls,S.D.C Cinemas,13.46092,79.12313
+Sri City,cafes and restaurants,Jaishree Fresh Juice Shop,13.7036,80.02722
+Sri City,Stationary Shops,Vital Stationary,13.5991,80.03086
+Sri City,Hardware Stores,EmbSys Store,13.41437,80.11688
+Sri City,Medical Centers,Pranavi Medicals,14.153,79.85299
+Sri City,Malls,Sri Lakshmi Theatres,14.15297,79.8561
+Sri City,cafes and restaurants,Jaishree Fresh Juice Shop,13.70264,80.02796
+Sri City,Stationary Shops,Vital Stationary,13.59586,80.03287
+Sri City,Hardware Stores,Nelcast Pvt. Ltd.,13.70634,80.0245
+Sri City,Medical Centers,Sankara Netralaya,13.70988,80.02778
+Sri City,Malls,Gori Multiplex,13.41425,80.11548
+Sri City,cafes and restaurants,New City,13.59501,80.03139
+Sri City,Stationary Shops,Vital Stationary,13.59501,80.03544
+Sri City,Hardware Stores,Reddy Project Components,13.59861,80.02894
+Sri City,Medical Centers,SriCity Medicals Center,13.59872,80.03318
+Sri City,Malls,Sankara Movies,13.59722,80.03538
+Sri City,cafes and restaurants,New City,13.59823,80.03775
+Sri City,Stationary Shops,New Star Xerox,13.70753,80.02897
+Sri City,Hardware Stores,EmbSys Store,13.41232,80.11298
+Sri City,Medical Centers,Sankara Netralaya,13.70317,80.0206
+Sri City,Malls,Sri Lakshmi Theatres,14.1499,79.85437
+Sri City,cafes and restaurants,Jaishree Fresh Juice Shop,13.71212,80.02756
+Sri City,Stationary Shops,Vital Stationary,13.59115,80.03014
+Sri City,Hardware Stores,Roland Components,14.15562,79.85108
+Sri City,Medical Centers,SriCity Medicals Center,13.59927,80.0315
+Sri City,Malls,Sri Lakshmi Theatres,14.15217,79.85835
+Chittoor,cafes and restaurants,Student Tea Corner,13.21971,79.10132
+Chittoor,Stationary Shops,Sri Book Sellers,13.22363,79.00801
+Chittoor,Hardware Stores,Vijaya Logistics,13.45655,79.12044
+Chittoor,Medical Centers,Appolo Medical Store,13.21992,79.0076
+Chittoor,Malls,S.D.C Cinemas,13.45998,79.123
+Sri City,cafes and restaurants,New City,13.59079,80.02894
+Sri City,Stationary Shops,Shri Viba Stores,13.41134,80.11095
+Sri City,Hardware Stores,Roland Components,14.14772,79.85285
+Sri City,Medical Centers,SriCity Medicals Center,13.59493,80.03163
+Sri City,Malls,Sri Lakshmi Theatres,14.15365,79.8571
+Sri City,cafes and restaurants,New City,13.59711,80.03575
+Sri City,Stationary Shops,New Star Xerox,13.70476,80.02706
+Sri City,Hardware Stores,Roland Components,14.1479,79.85666
+Sri City,Medical Centers,Sankara Netralaya,13.71162,80.02747
+Sri City,Malls,Sri Lakshmi Theatres,14.14917,79.85553
+Sri City,cafes and restaurants,Jaishree Fresh Juice Shop,13.70589,80.02485
+Sri City,Stationary Shops,New Star Xerox,13.71216,80.02418
+Sri City,Hardware Stores,Roland Components,14.15258,79.85267
+Sri City,Medical Centers,SriCity Medicals Center,13.5966,80.03422
+Sri City,Malls,Sri Lakshmi Theatres,14.14987,79.85231
+Sri City,cafes and restaurants,Jaishree Fresh Juice Shop,13.7021,80.02703
+Sri City,Stationary Shops,New Star Xerox,13.70736,80.01887
+Sri City,Hardware Stores,Roland Components,14.14636,79.85515
+Sri City,Medical Centers,Sankara Netralaya,13.70448,80.02618
+Sri City,Malls,Sri Lakshmi Theatres,14.15108,79.85292
+Chittoor,cafes and restaurants,Student Tea Corner,13.22871,79.10933
+Chittoor,Stationary Shops,Madhu Book Stall,13.22316,79.10646
+Chittoor,Hardware Stores,Bhaskara Components,13.22906,79.10945
+Chittoor,Medical Centers,Medplus Pharmacy,13.2248,79.10568
+Chittoor,Malls,Sri Cinamas,13.22847,79.10213
+Chittoor,cafes and restaurants,Student Tea Corner,13.23055,79.10728
+Chittoor,Stationary Shops,MB Stores,13.23869,79.11038
+Chittoor,Hardware Stores,Vijaya Logistics,13.45232,79.12607
+Chittoor,Medical Centers,Neela Medicos,13.46114,79.12292
+Chittoor,Malls,Sri Cinamas,13.22067,79.10864
+Chittoor,cafes and restaurants,Student Tea Corner,13.22281,79.10132
+Chittoor,Stationary Shops,Sri Book Sellers,13.22221,79.00419
+Chittoor,Hardware Stores,Vijaya Logistics,13.45721,79.12651
+Chittoor,Medical Centers,Medplus Pharmacy,13.22843,79.10647
+Chittoor,Malls,Divya Mall,13.24433,79.11104
+Sri City,cafes and restaurants,Jaishree Fresh Juice Shop,13.71241,80.02788
+Sri City,Stationary Shops,Vital Stationary,13.59717,80.0296
+Sri City,Hardware Stores,Roland Components,14.14956,79.85299
+Sri City,Medical Centers,Ayaapa Medicos,13.41784,80.11342
+Sri City,Malls,Sri Lakshmi Theatres,14.15286,79.85751
+Sri City,cafes and restaurants,Jaishree Fresh Juice Shop,13.70712,80.02768
+Sri City,Stationary Shops,New Star Xerox,13.71176,80.02662
+Sri City,Hardware Stores,EmbSys Store,13.40799,80.12018
+Sri City,Medical Centers,Sankara Netralaya,13.7032,80.01874
+Sri City,Malls,Sri Lakshmi Theatres,14.14886,79.85603
+Sri City,cafes and restaurants,Jaishree Fresh Juice Shop,13.71232,80.02699
+Sri City,Stationary Shops,New Star Xerox,13.71141,80.02598
+Sri City,Hardware Stores,Roland Components,14.14737,79.85349
+Sri City,Medical Centers,Sankara Netralaya,13.7121,80.02868
+Sri City,Malls,Sri Lakshmi Theatres,14.1465,79.85576
+Sri City,cafes and restaurants,Cafe Coffee Day,13.5570,80.0568
+Sri City,Stationary Shops,Mohan Stationary,14.15498,79.85493
+Sri City,Hardware Stores,Roland Components,14.15078,79.85635
+Sri City,Medical Centers,Pranavi Medicals,14.15659,79.86004
+Sri City,Malls,Sri Lakshmi Theatres,14.15222,79.85925
+Sri City,cafes and restaurants,New City,13.59754,80.03546
+Sri City,Stationary Shops,Vital Stationary,13.59195,80.0308
+Sri City,Hardware Stores,Reddy Project Components,13.58932,80.02955
+Sri City,Medical Centers,SriCity Medicals Center,13.58961,80.03842
+Sri City,Malls,Sri Lakshmi Theatres,14.15328,79.86072
+Sri City,cafes and restaurants,New City,13.59451,80.02855
+Sri City,Stationary Shops,Vital Stationary,13.59202,80.0349
+Sri City,Hardware Stores,Roland Components,14.15465,79.85887
+Sri City,Medical Centers,Ayaapa Medicos,13.4095,80.11857
+Sri City,Malls,Gori Multiplex,13.41399,80.11377
+Sri City,cafes and restaurants,Cafe Tada,13.41076,80.11596
+Sri City,Stationary Shops,New Star Xerox,13.70256,80.0242
+Sri City,Hardware Stores,Roland Components,14.14671,79.85144
+Sri City,Medical Centers,SriCity Medicals Center,13.59737,80.03141
+Sri City,Malls,Sri Lakshmi Theatres,14.15595,79.85198

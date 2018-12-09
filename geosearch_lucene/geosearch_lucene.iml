@@ -10,5 +10,7 @@
     <orderEntry type="library" name="lucene-analyzers-common-7.4.0" level="project" />
     <orderEntry type="library" name="lucene-queryparser-7.4.0" level="project" />
     <orderEntry type="library" name="lucene-core-7.4.0" level="project" />
+    <orderEntry type="library" name="commons-lang3-3.8.1" level="project" />
+    <orderEntry type="library" name="commons-codec-1.11" level="project" />
   </component>
 </module>

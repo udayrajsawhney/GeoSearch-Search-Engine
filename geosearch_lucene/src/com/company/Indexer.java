@@ -12,6 +12,8 @@ import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
 import java.util.List;
+
+import org.apache.commons.codec.language.Caverphone;
 import org.apache.lucene.analysis.Analyzer;
 
 
@@ -128,9 +130,9 @@ static void indexDocs(final IndexWriter writer, Path path) throws IOException
             for(int i=0;i<text.length;i++)
             {
                 String[] val = text[i].split(",");
-                val[0] = getCodes(val[0]);
-                val[1] = getCodes(val[1]);
-                Document document1 = createDocument(i+1, new String(val[0]),new String(val[1]),new String(val[2]),new Double(val[3]),new Double(val[4]));
+
+                Caverphone cpv = new Caverphone();
+                Document document1 = createDocument(i+1,cpv.encode(val[0]),cpv.encode(val[1]),new String(val[2]),new Double(val[3]),new Double(val[4]));
                 documents.add(document1);
             }
               writer.deleteAll();

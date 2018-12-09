@@ -1,5 +1,8 @@
 package com.company;
 
+import org.apache.commons.codec.language.Caverphone;
+import org.apache.commons.codec.language.Caverphone1;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.DirectoryReader;
@@ -43,17 +46,57 @@ public class Searcher {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
+        //System.out.println("Initial Query is " + query);
+        String[] utilities = {"Stationary Shops","Hardware Stores","Medical Centers","cafes and restaurants","Malls"};
+
+        String utility = "";
+        double similarity = 0;
+        Caverphone cpv = new Caverphone();
+        for(String str : query.split(" ")){
+            for(String compareString: utilities){
+                double similarity_score = StringUtils.getJaroWinklerDistance(cpv.encode(compareString.toLowerCase()),cpv.encode(str));
+                if(similarity_score > similarity){
+                    similarity = similarity_score;
+                    utility = compareString;
+                }
+            }
+        }
+        query = utility;
         /*
         System.out.println("Query = " + query);
         System.out.println("Latitude = " + lat1);
         System.out.println("Longitude = " + lon1);
         System.out.println("City = " + city);
         System.out.println("Coming from java");
-        */
 
-        city1 = getCodes(city);
+        System.out.println(StringUtils.getJaroWinklerDistance("theatre","malls"));
+
+        System.out.println(StringUtils.getJaroWinklerDistance("theatre","cinema"));
+
+        System.out.println(StringUtils.getJaroWinklerDistance("cafes and restaurants","movie"));
+        System.out.println(StringUtils.getJaroWinklerDistance("cafes and restaurants","coffee"));
+        System.out.println(StringUtils.getJaroWinklerDistance("cafes and restaurants","cafes"));
+        */
+        if (query.equals("Stationary Shops")) {
+            threshold = 7697.3;
+        }
+        else if (query.equals("Hardware Stores")) {
+            threshold = 22592.5;
+        }
+        else if (query.equals("Medical Centers")) {
+            threshold = 11111.1;
+        }
+        else if (query.equals("cafes and restaurants")) {
+            threshold = 11574.0;
+        }
+        else if (query.equals("Malls")) {
+            threshold = 26805.5;
+        }
+
+
+        city1 = cpv.encode(city);
         TopDocs foundDocs2 = searchByCity(city1, searcher);
-        query1 = getCodes(query);
+        query1 = cpv.encode(query);
         //TopDocs foundDocs2 = searchByUtility(query1, searcher);
 
         //System.out.println("Total Results :: " + foundDocs2.totalHits);
@@ -79,11 +122,14 @@ public class Searcher {
             distance = Math.pow(distance, 2) + Math.pow(height, 2);
             
             distance = Math.sqrt(distance);
-            
+
+            /*System.out.println(distance);
+            System.out.println(d.get("utility"));
+            System.out.println(cpv.encode("Coffee Shops"));*/
+
             if  (distance < threshold && query1.equals(d.get("utility"))) {
-                //System.out.println(String.format(d.get("utility")));
-            	//System.out.println(String.format(query));
                 System.out.println(String.format(d.get("location")));
+                System.out.println(String.format("%.2f",distance/1000));
                 System.out.println(Double.parseDouble(d.get("latitude")));
                 System.out.println(Double.parseDouble(d.get("longitude")));
             }
@@ -96,7 +142,7 @@ public class Searcher {
     private static TopDocs searchByCity(String city, IndexSearcher searcher) throws Exception {
         QueryParser qp = new QueryParser("city", new StandardAnalyzer());
         Query city_query = qp.parse(city);
-        TopDocs hits = searcher.search(city_query, 10);
+        TopDocs hits = searcher.search(city_query, 500);
         return hits;
     }
     private static TopDocs searchByFirstName(String firstName, IndexSearcher searcher) throws Exception

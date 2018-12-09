@@ -32,9 +32,7 @@ def results(request):
             latitude = latlong.split(',')[0]
             longitude = latlong.split(',')[1]
     else:
-        context = {
-            'results': "Unable to access location"
-        }
+        context = {}
         return render(request, template, context)
 
     city = distance(float(latitude), float(longitude))
@@ -44,8 +42,17 @@ def results(request):
                           stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     results = p1.stdout.readlines()
     p1.communicate()
+    row_entry = []
+    data = []
+    for i in range(len(results)):
+        if i>0 and i%4==0:
+            data.append(row_entry)
+            row_entry = []
+        row_entry.append(results[i])
     context = {
-        'results': results
+        'query' : query,
+        'results': data
     }
-    print(results[0])
+    if data:
+        print(data)
     return render(request, template, context)
