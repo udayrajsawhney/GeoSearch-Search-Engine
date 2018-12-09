@@ -47,14 +47,14 @@ public class Searcher {
             System.out.println(e.getMessage());
         }
         //System.out.println("Initial Query is " + query);
-        String[] utilities = {"Stationary Shops","Hardware Stores","Medical Centers","cafes and restaurants","Malls"};
+        String[] utilities = {"Stationary","Hardware","Medical","cafes","Malls"};
 
         String utility = "";
         double similarity = 0;
         Caverphone cpv = new Caverphone();
         for(String str : query.split(" ")){
             for(String compareString: utilities){
-                double similarity_score = StringUtils.getJaroWinklerDistance(cpv.encode(compareString.toLowerCase()),cpv.encode(str));
+                double similarity_score = StringUtils.getJaroWinklerDistance(cpv.encode(compareString.toLowerCase()),cpv.encode(str.toLowerCase()));
                 if(similarity_score > similarity){
                     similarity = similarity_score;
                     utility = compareString;
@@ -77,16 +77,16 @@ public class Searcher {
         System.out.println(StringUtils.getJaroWinklerDistance("cafes and restaurants","coffee"));
         System.out.println(StringUtils.getJaroWinklerDistance("cafes and restaurants","cafes"));
         */
-        if (query.equals("Stationary Shops")) {
+        if (query.equals("Stationary")) {
             threshold = 7697.3;
         }
-        else if (query.equals("Hardware Stores")) {
+        else if (query.equals("Hardware")) {
             threshold = 22592.5;
         }
-        else if (query.equals("Medical Centers")) {
+        else if (query.equals("Medical")) {
             threshold = 11111.1;
         }
-        else if (query.equals("cafes and restaurants")) {
+        else if (query.equals("cafes")) {
             threshold = 11574.0;
         }
         else if (query.equals("Malls")) {

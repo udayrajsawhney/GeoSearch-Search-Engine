@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>GeoSearch</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
           integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
           crossorigin="anonymous">
@@ -41,7 +41,8 @@
         </form>
     </div>
 </nav>
-<div class="card" style="padding-left: 60px;padding-bottom: 120px;">
+<div style="padding: 3px;font-family:Roboto;font-size: medium;color: grey;padding-left: 80px;">Total Results Retreived :  {{ retreived }}</div>
+<div class="card" style="padding-left: 60px;padding-bottom: 120px;border: 0;">
     {% if results|length > 1 %}
         {% for result in results %}
             <div class="card-body">

@@ -50,9 +50,10 @@ def results(request):
             row_entry = []
         row_entry.append(results[i])
     context = {
+        'retreived' : len(data),
         'query' : query,
         'results': data
     }
     if data:
-        print(data)
+        print(len(data))
     return render(request, template, context)
