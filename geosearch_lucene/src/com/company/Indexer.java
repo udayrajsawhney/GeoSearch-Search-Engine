@@ -131,6 +131,7 @@ static void indexDocs(final IndexWriter writer, Path path) throws IOException
             {
                 String[] val = text[i].split(",");
 
+
                 Caverphone cpv = new Caverphone();
                 Document document1 = createDocument(i+1,cpv.encode(val[0]),cpv.encode(val[1]),new String(val[2]),new Double(val[3]),new Double(val[4]));
                 documents.add(document1);
