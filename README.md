@@ -4,19 +4,16 @@ We developed a `location-based search system` for web documents on the internet.
 This system can find documents based on the distance between locations that are
 described in web documents and a location specified by a user. It consists of three
 modules.
-_ (1) Gathering web documents,
-_ (2) a parser extracts address strings from documents and associates latitude-longitude information to the original document and
 
-- (3) a retrieval module. This system can retrieve location-related web documents overlooked by conventional keyword-based search engines.
+- (1) Gathering web documents,
+- (2) a parser extracts address strings from documents and associates latitude-longitude information to the original document and
+
+* (3) a retrieval module. This system can retrieve location-related web documents overlooked by conventional keyword-based search engines.
 
 ## To Run Project
 
 - First create jar file of the project using any IDE Example `IntelliJ IDEA`,
 - File -> Project Structure -> Artifacts -> + -> Follow default settings
-
-To Build jar file for lucene project
-
-> TO build jar rigth click on the particular file (Here Searcher.java) -> Build -> Artifact
 
 1. To run project first create a `virtual environment` to run `Django baackend server`.
 2. Install dependancies using the command
