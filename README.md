@@ -29,4 +29,4 @@ modules.
 
 #### Screenshots
 
-<img src="https://github.com/udayrajsawhney/GeoSearch-Search-Engine/blob/master/screenshots/1.png" width="180" height="370"/> <img src="https://github.com/udayrajsawhney/GeoSearch-Search-Engine/blob/master/screenshots/2.png" width="180" height="370"/> <img src="https://github.com/udayrajsawhney/GeoSearch-Search-Engine/blob/master/screenshots/3.png" width="370" height="260"/> <img src="https://github.com/udayrajsawhney/GeoSearch-Search-Engine/blob/master/screenshots/4.png" width="370" height="260"/>
+<img src="https://github.com/udayrajsawhney/GeoSearch-Search-Engine/blob/master/screenshots/1.png" width="520" height="340"/> <img src="https://github.com/udayrajsawhney/GeoSearch-Search-Engine/blob/master/screenshots/2.png" width="520" height="340"/> <img src="https://github.com/udayrajsawhney/GeoSearch-Search-Engine/blob/master/screenshots/3.png" width="520" height="340"/> <img src="https://github.com/udayrajsawhney/GeoSearch-Search-Engine/blob/master/screenshots/4.png" width="520" height="340"/>
