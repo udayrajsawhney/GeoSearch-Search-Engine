@@ -26,3 +26,7 @@ modules.
 4. To run Lucene runnable jar go to root/geosearch_lucene
 
    > \$ java -jar geosearch_lucene.jar <Query> <Latitude> <Longitude> <City Name>
+
+#### Screenshots
+
+<img src="https://github.com/udayrajsawhney/GeoSearch-Search-Engine/blob/master/screenshots/1.png" width="180" height="370"/> <img src="https://github.com/udayrajsawhney/GeoSearch-Search-Engine/blob/master/screenshots/2.png" width="180" height="370"/> <img src="https://github.com/udayrajsawhney/GeoSearch-Search-Engine/blob/master/screenshots/3.png" width="370" height="260"/> <img src="https://github.com/udayrajsawhney/GeoSearch-Search-Engine/blob/master/screenshots/4.png" width="370" height="260"/>
